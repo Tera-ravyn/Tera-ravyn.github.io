@@ -8,6 +8,9 @@ dependencies:
   hexo:
     specifier: ^6.3.0
     version: 6.3.0
+  hexo-deployer-git:
+    specifier: ^4.0.0
+    version: 4.0.0
   hexo-deployer-heroku:
     specifier: ^1.0.0
     version: 1.0.0
@@ -608,6 +611,20 @@ packages:
       tildify: 2.0.0
     dev: false
 
+  /hexo-deployer-git@4.0.0:
+    resolution: {integrity: sha512-28t1Q+4taB/UaBAP52W3mD/wcCwa2y2zBieUfBJFBZudbmVgiKJB5YedYILeyI5QByaUKAOwoupmdTbocdQ+CQ==}
+    engines: {node: '>=14'}
+    dependencies:
+      bluebird: 3.7.2
+      hexo-fs: 4.1.1
+      hexo-util: 2.7.0
+      luxon: 3.4.3
+      nunjucks: 3.2.4
+      picocolors: 1.0.0
+    transitivePeerDependencies:
+      - chokidar
+    dev: false
+
   /hexo-deployer-heroku@1.0.0:
     resolution: {integrity: sha512-0q+cbekYo5WlLY+2xlnE4lC32Bnh0IB0uDLv3jRA8Me5funB/bYKdYLTkbEEHl2OucSb/wt11h11W9atD05jbA==}
     engines: {node: '>=14'}
@@ -1025,6 +1042,11 @@ packages:
     resolution: {integrity: sha512-7fm3l3NAF9WfN6W3JOmf5drwpVqX78JtoGJ3A6W0a6ZnldM41w2fV5D490psKFTpMds8TJse/eHLFFsNHHjHgg==}
     dependencies:
       tslib: 2.6.2
+    dev: false
+
+  /luxon@3.4.3:
+    resolution: {integrity: sha512-tFWBiv3h7z+T/tDaoxA8rqTxy1CHV6gHS//QdaH4pulbq/JuBSGgQspQQqcgnwdAx6pNI7cmvz5Sv/addzHmUg==}
+    engines: {node: '>=12'}
     dev: false
 
   /marked@4.3.0:
