@@ -1,0 +1,62 @@
+name: Deploy hexo blog
+on:
+  push:
+    branches:
+      - "main"
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          ref: "main"
+
+      - name: Setup node
+        uses: actions/setup-node@v3
+        with:
+          node-version: "18.16.1"
+          cache: "pnpm"
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v2
+        with:
+          version: 8.6.6
+          run_install: false
+
+      - name: Get pnpm store directory
+        id: pnpm-cache
+        shell: bash
+        run: |
+          echo "STORE_PATH=$(pnpm store path)" >> $GITHUB_OUTPUT
+
+      - uses: actions/cache@v3
+        name: Setup pnpm cache
+        with:
+          path: ${{ steps.pnpm-cache.outputs.STORE_PATH }}
+          key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }}
+          restore-keys: |
+            ${{ runner.os }}-pnpm-store-
+
+      - name: Install node_modules
+        if: steps.cache-hit.outputs.cache-hit != 'true'
+        run: pnpm install
+
+      # - name: Setup pnpm & Install node_modules
+      # uses: borales/actions-yarn@v3.0.0
+      # with:
+      #   cmd: install
+      # run: pnpm install
+
+      # - name: Check yarn & node version
+      #   run: |
+      #     echo "Node version is `node -v`"
+      #     echo "Yarn version is `yarn -v`"
+
+      - name: Build & Deploy
+        run: |
+          git config --global user.name "GitHub Action"
+          git config --global user.email "action@github.com"
+          sed -i'' "s~git@github.com:~https://${{ secrets.GH_TOKEN }}@github.com/~" _config.yml
+          rm -rf .deploy_git
+          pnpm run build
+          pnpm deploy
