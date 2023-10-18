@@ -1,0 +1,1 @@
+var posts=["2023/10/17/hello-world/","2023/10/18/技术相关/turf.js绘制矢量箭头/"];function toRandomPost(){pjax.loadUrl('/'+posts[Math.floor(Math.random() * posts.length)]);};
