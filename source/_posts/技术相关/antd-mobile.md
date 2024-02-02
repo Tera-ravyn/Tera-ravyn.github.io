@@ -1,0 +1,3 @@
+当tabs.tab包裹children的时候，sticky实际无法生效。官方样例里的sticky要么是一整片的定位，实际上没有tab区的重渲染，要么是用了swiper（tab区域也没有重渲染）
+比较好的方法就是使用Swiper，用ref传给tab。
+直接用sticky只在外面包一层的话，是不生效的，因为sticky的父元素需要也是sticky。但是全部sticky后，tab和tabs会一起被黏住。

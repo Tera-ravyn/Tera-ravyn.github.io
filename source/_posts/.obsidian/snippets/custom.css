@@ -1,0 +1,19 @@
+body {
+  --line-height-normal: 1.9;
+}
+
+.is-mobile.theme-dark {
+  --color-base-00: #1e1e1e;
+  --color-base-10: #242424;
+  --color-base-20: #262626;
+  --tag-background: hsla(var(--interactive-accent-hsl), 0.2);
+  --search-result-background: var(--background-secondary);
+  --background-modifier-form-field: var(--background-modifier-border);
+  --background-modifier-cover: rgba(0, 0, 0, 0.5);
+  --background-modifier-hover: rgba(var(--mono-rgb-100), 0.15);
+  --settings-home-background: var(--background-primary);
+}
+
+.is-mobile {
+  font-family: "PingFang SC", "苹方";
+}
