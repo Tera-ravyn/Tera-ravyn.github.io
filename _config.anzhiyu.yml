@@ -142,7 +142,9 @@ disable_top_img: false
 index_img: "background: url(/img/15yeah.jpg) top / cover no-repeat"
 
 # If the banner of page not setting, it will show the top_img
-default_top_img: "background: url(/img/default_cover.jpg) top / cover no-repeat"
+default_top_img: "background: url(/img/junge.jpeg) top / cover no-repeat"
+
+category_img: /img/junge.jpeg
 
 cover:
   # display the cover or not (是否显示文章封面)
