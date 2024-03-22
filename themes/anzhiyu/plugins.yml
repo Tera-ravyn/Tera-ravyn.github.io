@@ -143,7 +143,7 @@ fontawesome:
   name: "@fortawesome/fontawesome-free"
   file: css/all.min.css
   other_name: font-awesome
-  version: 6.4.0
+  version: 6.5.1
 flickr_justified_gallery_js:
   name: flickr-justified-gallery
   file: dist/fjGallery.min.js

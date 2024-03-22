@@ -89,5 +89,13 @@
       ],
       "key": "`"
     }
+  ],
+  "quickadd:choice:00ed47d7-400b-4635-a5fb-e8408c0a6d6a": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "Y"
+    }
   ]
 }

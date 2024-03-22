@@ -1,3 +1,12 @@
+---
+title: amis相关
+categories: 技术
+tags:
+  - 前端
+  - amis
+createDate: 2024-03-22 17:49:49
+updateDate: 2024-03-22 17:49:49
+---
 onEvent中的ajax：使用event.data.result来取
 
 combo默认不继承父级数据域，所以编辑器里上下文取不到其他combo里的数据，直接配置也会有setvalue导致的数据延迟，这个时候打开继承父级作用域变量即可。
