@@ -8,7 +8,7 @@ subtitle: 自留地
 description: 技术/漫画/音乐分享
 keywords: 前端开发,UE,漫画,金属,摇滚
 author: 止一寺
-language: zh
+language: zh-CN
 timezone:
 
 # URL
@@ -40,7 +40,7 @@ external_link:
   exclude: ""
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
 highlight:
@@ -105,3 +105,36 @@ deploy:
   type: git
   repo: git@github.com:Tera-ravyn/Tera-ravyn.github.io.git
   branch: release
+
+markdown:
+  preset: "default"
+  render:
+    html: true
+    xhtmlOut: false
+    langPrefix: "language-"
+    breaks: true
+    linkify: true
+    typographer: true
+    quotes: "“”‘’"
+  enable_rules:
+  disable_rules:
+  plugins:
+    - markdown-it-abbr
+    - markdown-it-footnote
+    - markdown-it-ins
+    - markdown-it-sub
+    - markdown-it-sup
+  anchors:
+    level: 2
+    collisionSuffix: ""
+    permalink: false
+    permalinkClass: "header-anchor"
+    permalinkSide: "left"
+    permalinkSymbol: "¶"
+    case: 0
+    separator: "-"
+  images:
+    lazyload: false
+    prepend_root: false
+    post_asset: false
+  inline: false # https://markdown-it.github.io/markdown-it/#MarkdownIt.renderInline
