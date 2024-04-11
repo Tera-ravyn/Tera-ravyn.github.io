@@ -1,6 +1,6 @@
 ---
 title: Slipknot - .5 The Gray Chapter
-categorie: 乐评
+categories: 乐评
 tags:
   - Slipknot
   - Metal
@@ -10,7 +10,7 @@ updateDate: 2024-04-10 15:22:23
 ---
 ## 整专评价
 
-没记错的话是Jay进队的第一张专。个人觉得比AHIG反而还好一点点
+Jay进队的第一张专，个人觉得比AHIG反而还好一点点，因为AHIG的抒情歌实在是太多了。
 
 ## Track by Track
 ### XIX

@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/技术/UE5-pawn移动相关.md",
+                "file": "_drafts/乐评/Radiohead - OK Computer OKNOTOK 1997 2017.md",
                 "mode": "source",
                 "source": false
               }
@@ -33,7 +33,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/技术/UE5-pawn移动相关.md"
+                "file": "_drafts/乐评/Radiohead - OK Computer OKNOTOK 1997 2017.md"
               }
             }
           }
@@ -103,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/技术/UE5-pawn移动相关.md",
+                "file": "_drafts/乐评/Radiohead - OK Computer OKNOTOK 1997 2017.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/技术/UE5-pawn移动相关.md",
+                "file": "_drafts/乐评/Radiohead - OK Computer OKNOTOK 1997 2017.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/技术/UE5-pawn移动相关.md"
+                "file": "_drafts/乐评/Radiohead - OK Computer OKNOTOK 1997 2017.md"
               }
             }
           }
@@ -167,9 +167,13 @@
   "active": "56c7fc1a29af7b06",
   "lastOpenFiles": [
     "_drafts/乐评/Slipknot - .5 The Gray Chapter.md",
+    "_drafts/乐评/Radiohead - OK Computer OKNOTOK 1997 2017.md",
+    "_drafts/乐评/Radiohead - A Moon Shaped Pool.md",
+    "_drafts/乐评/Radiohead - OK Computer.md",
+    "_drafts/乐评/template.md",
+    "_drafts/乐评/Slipknot - .5 The Gray Chapter/IMG-20240410153508849.jpg",
     "_posts/技术/UE5-pawn移动相关.md",
     "_drafts/乐评/Slipknot - .5 The Gray Chapter",
-    "_drafts/乐评/Slipknot - .5 The Gray Chapter/IMG-20240410153508849.jpg",
     "_posts/技术/UE5-pawn移动相关/IMG-20240410141928465.png",
     "_posts/tech/UE5-pawn移动相关/IMG-20240410141917903.png",
     "_posts/技术/UE5-pawn移动相关/IMG-20240410141726541.png",
@@ -206,10 +210,6 @@
     "漫画随笔/连载中/厨刀与小青椒.md",
     "技术/turf.js绘制矢量箭头.md",
     "技术/antd-mobile使用记录.md",
-    "css.md",
-    "hello-world.md",
-    "漫画随笔/已完结/企鹅革命.md",
-    "漫画随笔/死役所.md",
-    "漫画随笔/月光条例.md"
+    "css.md"
   ]
 }
