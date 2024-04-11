@@ -34,9 +34,64 @@
       },
       "openFile": false,
       "openFileInMode": "default"
+    },
+    {
+      "id": "41a3eb23-da9b-40e6-9121-b652ca75d200",
+      "name": "newArticle",
+      "type": "Macro",
+      "command": true,
+      "macroId": "bc7d4235-0b3c-4111-b702-f8f4de8110dc"
     }
   ],
-  "macros": [],
+  "macros": [
+    {
+      "name": "newArticle",
+      "id": "bc7d4235-0b3c-4111-b702-f8f4de8110dc",
+      "commands": [
+        {
+          "name": "newArticle",
+          "type": "NestedChoice",
+          "id": "283faa8d-21cd-4387-bf96-c6593b3e2caa",
+          "choice": {
+            "id": "765e2208-cbe3-4210-84ff-b8d304dc21c0",
+            "name": "newArticle",
+            "type": "Capture",
+            "command": false,
+            "appendLink": false,
+            "captureTo": "_drafts/{{value:技术,乐评,漫画随笔}}/{{value:标题}}",
+            "captureToActiveFile": false,
+            "createFileIfItDoesntExist": {
+              "enabled": true,
+              "createWithTemplate": false,
+              "template": "_drafts/技术/template-tech.md"
+            },
+            "format": {
+              "enabled": true,
+              "format": "---\ntitle: {{value: 标题}}\ncategories: {{value:技术,乐评,漫画随笔}}\ntags: \ncreateDate: {{DATE:YYYY-MM-DD HH:mm:ss}}\nupdateDate: {{DATE:YYYY-MM-DD HH:mm:ss}}\n---"
+            },
+            "insertAfter": {
+              "enabled": false,
+              "after": "",
+              "insertAtEnd": false,
+              "considerSubsections": false,
+              "createIfNotFound": false,
+              "createIfNotFoundLocation": "top"
+            },
+            "prepend": false,
+            "task": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": true,
+            "openFileInMode": "default"
+          }
+        }
+      ],
+      "runOnStartup": false
+    }
+  ],
   "inputPrompt": "single-line",
   "devMode": false,
   "templateFolderPath": "",
