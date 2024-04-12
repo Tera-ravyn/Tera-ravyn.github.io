@@ -26,14 +26,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_drafts/乐评/Radiohead - OK Computer OKNOTOK 1997 2017.md",
+                "file": "_posts/技术/UE5-pawn移动相关.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1e1e4f28e5b4793a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_drafts/乐评/Slipknot - .5 The Gray Chapter.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "fd30f7c9bd509105",
@@ -46,7 +58,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_drafts/乐评/Radiohead - OK Computer OKNOTOK 1997 2017.md"
+                "file": "_drafts/乐评/Slipknot - .5 The Gray Chapter.md"
               }
             }
           }
@@ -116,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_drafts/乐评/Radiohead - OK Computer OKNOTOK 1997 2017.md",
+                "file": "_drafts/乐评/Slipknot - .5 The Gray Chapter.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_drafts/乐评/Radiohead - OK Computer OKNOTOK 1997 2017.md",
+                "file": "_drafts/乐评/Slipknot - .5 The Gray Chapter.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +168,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_drafts/乐评/Radiohead - OK Computer OKNOTOK 1997 2017.md"
+                "file": "_drafts/乐评/Slipknot - .5 The Gray Chapter.md"
               }
             }
           }
@@ -177,19 +189,21 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "f76a406f3e1c74c4",
+  "active": "1e1e4f28e5b4793a",
   "lastOpenFiles": [
+    "_drafts/乐评/Slipknot - Slipknot.md",
+    "_drafts/乐评/Slipknot - .5 The Gray Chapter.md",
+    "_drafts/乐评/Radiohead - OK Computer OKNOTOK 1997 2017.md",
     "_drafts/乐评/Radiohead - OK Computer.md",
     "_drafts/乐评/Radiohead - A Moon Shaped Pool.md",
-    "_drafts/技术/UE5-简单朴素的水体呈现.md",
+    "_drafts/乐评/template-music.md",
     "_posts/技术/UE5-pawn移动相关.md",
-    "_drafts/乐评/Slipknot - .5 The Gray Chapter.md",
+    "_drafts/技术/UE5-简单朴素的水体呈现.md",
     "_drafts/漫画随笔/已完结/企鹅革命.md",
     "_drafts/漫画随笔/已完结/月光条例.md",
     "categories/index.md",
     "_drafts/技术/turf.js绘制矢量箭头.md",
     "_posts/技术/未命名.md",
-    "_drafts/乐评/template-music.md",
     "_drafts/技术/template-tech.md",
     "_drafts/技术/amis.md",
     "_posts/技术/UE5-pawn移动相关templatetemplate.md",
@@ -204,7 +218,6 @@
     "_posts/技术/UE5-pawn移动相关/IMG-20240408141533664.png",
     "_posts/技术/UE5-pawn移动相关/IMG-20240408135940296.png",
     "_posts/技术/UE5-pawn移动相关templatetemplate",
-    "_drafts/乐评/Radiohead - OK Computer OKNOTOK 1997 2017.md",
     "_drafts/乐评/Slipknot - .5 The Gray Chapter",
     "_posts/技术/UE5-pawn移动相关",
     "_drafts/UE5-pawn.md",
@@ -223,7 +236,6 @@
     "技术/未命名.md",
     "技术/amis.md",
     "漫画随笔/连载中/影宅.md",
-    "漫画随笔/连载中/我家使魔给您添麻烦了.md",
-    "漫画随笔/连载中/九龙大众浪漫.md"
+    "漫画随笔/连载中/我家使魔给您添麻烦了.md"
   ]
 }

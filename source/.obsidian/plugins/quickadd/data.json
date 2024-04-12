@@ -67,7 +67,7 @@
             },
             "format": {
               "enabled": true,
-              "format": "---\ntitle: {{value: 标题}}\ncategories: {{value:技术,乐评,漫画随笔}}\ntags: \ncreateDate: {{DATE:YYYY-MM-DD HH:mm:ss}}\nupdateDate: {{DATE:YYYY-MM-DD HH:mm:ss}}\n---"
+              "format": "---\ntitle: {{value:标题}}\ncategories: {{value:技术,乐评,漫画随笔}}\ntags: \ncreateDate: {{DATE:YYYY-MM-DD HH:mm:ss}}\nupdateDate: {{DATE:YYYY-MM-DD HH:mm:ss}}\n---"
             },
             "insertAfter": {
               "enabled": false,

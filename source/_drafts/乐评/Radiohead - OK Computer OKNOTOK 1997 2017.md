@@ -5,12 +5,14 @@ tags:
   - Radiohead
   - rock
   - alternative-rock
+  - album
 createDate: 2024-04-11 14:55:11
 updateDate: 2024-04-11 14:55:11
 ---
 ## 基本信息
 
-发行于2017/6/23。
+发行于：
+2017年6月23日
 
 纸质双开夹层包装，2CD，没有歌词本与赠品。黑胶版本为3vinyl，封面与CD版本相同，背面写有：这次再版是为了纪念雷切尔·欧文博士（1968-2016），她在与癌症进行了长期而勇敢的斗争后去世。我们希望你没事，谢谢你的聆听。(“This re-issue is dedicated to the memory of Dr. Rachel Owen (1968-2016) who died after a long and brave battle with cancer. We hope you are OK. Thank you for listening.”)
 
