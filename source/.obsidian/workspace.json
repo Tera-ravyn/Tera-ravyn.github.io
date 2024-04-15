@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/技术/UE5-pawn移动相关.md",
+                "file": "_posts/技术/UE5 - pawn移动相关.md",
                 "mode": "source",
                 "source": false
               }
@@ -38,14 +38,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_drafts/乐评/Slipknot - .5 The Gray Chapter.md",
+                "file": "_drafts/乐评/Radiohead - OK Computer OKNOTOK 1997 2017.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f358221d8a21fa8b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/乐评/Os Garotin.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       },
       {
         "id": "fd30f7c9bd509105",
@@ -58,7 +70,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_drafts/乐评/Slipknot - .5 The Gray Chapter.md"
+                "file": "_posts/乐评/Os Garotin.md"
               }
             }
           }
@@ -128,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_drafts/乐评/Slipknot - .5 The Gray Chapter.md",
+                "file": "_posts/乐评/Os Garotin.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +157,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_drafts/乐评/Slipknot - .5 The Gray Chapter.md",
+                "file": "_posts/乐评/Os Garotin.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,7 +180,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_drafts/乐评/Slipknot - .5 The Gray Chapter.md"
+                "file": "_posts/乐评/Os Garotin.md"
               }
             }
           }
@@ -189,15 +201,30 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "1e1e4f28e5b4793a",
+  "active": "6e13b36c8c96fc62",
   "lastOpenFiles": [
-    "_drafts/乐评/Slipknot - Slipknot.md",
-    "_drafts/乐评/Slipknot - .5 The Gray Chapter.md",
+    "_posts/乐评",
+    "_posts/乐评/Os Garotin",
+    "_posts/乐评/Os Garotin/IMG-20240415103524051.png",
+    "_drafts/技术/antd-mobile使用记录.md",
+    "_posts/技术/UE5 - pawn移动相关.md",
+    "_posts/技术/UE5 - pawn移动相关",
+    "_posts/乐评/Os Garotin.md",
     "_drafts/乐评/Radiohead - OK Computer OKNOTOK 1997 2017.md",
-    "_drafts/乐评/Radiohead - OK Computer.md",
+    "_posts/技术/UE5 - pawn移动相关/IMG-20240415092908311.png",
+    "_posts/技术/UE5 - pawn移动相关/IMG-20240415092908363.png",
+    "_posts/技术/UE5 - pawn移动相关/IMG-20240415092908554.png",
+    "_posts/技术/UE5-pawn移动相关/IMG-20240408141109792.png",
+    "_posts/技术/UE5-pawn移动相关/IMG-20240408140104121.png",
+    "_posts/技术/UE5 - pawn移动相关/IMG-20240415092908465.png",
+    "_posts/技术/UE5 - pawn移动相关/IMG-20240415092908429.png",
+    "_posts/技术/UE5 - pawn移动相关/IMG-20240415092908400.png",
+    "_posts/技术/UE5 - pawn移动相关/IMG-20240415092908494.png",
     "_drafts/乐评/Radiohead - A Moon Shaped Pool.md",
+    "_drafts/乐评/Slipknot - .5 The Gray Chapter.md",
+    "_drafts/乐评/Slipknot - Slipknot.md",
+    "_drafts/乐评/Radiohead - OK Computer.md",
     "_drafts/乐评/template-music.md",
-    "_posts/技术/UE5-pawn移动相关.md",
     "_drafts/技术/UE5-简单朴素的水体呈现.md",
     "_drafts/漫画随笔/已完结/企鹅革命.md",
     "_drafts/漫画随笔/已完结/月光条例.md",
@@ -207,16 +234,6 @@
     "_drafts/技术/template-tech.md",
     "_drafts/技术/amis.md",
     "_posts/技术/UE5-pawn移动相关templatetemplate.md",
-    "_posts/技术/UE5-pawn移动相关/IMG-20240410141928465.png",
-    "_posts/技术/UE5-pawn移动相关/IMG-20240410141726541.png",
-    "_posts/技术/UE5-pawn移动相关/IMG-20240410125002124.png",
-    "_posts/技术/UE5-pawn移动相关/IMG-20240410112904281.png",
-    "_posts/技术/UE5-pawn移动相关/IMG-20240410112736978.png",
-    "_posts/技术/UE5-pawn移动相关/IMG-20240410100118997.png",
-    "_posts/技术/UE5-pawn移动相关/IMG-20240408142534073.png",
-    "_posts/技术/UE5-pawn移动相关/IMG-20240408142510273.png",
-    "_posts/技术/UE5-pawn移动相关/IMG-20240408141533664.png",
-    "_posts/技术/UE5-pawn移动相关/IMG-20240408135940296.png",
     "_posts/技术/UE5-pawn移动相关templatetemplate",
     "_drafts/乐评/Slipknot - .5 The Gray Chapter",
     "_posts/技术/UE5-pawn移动相关",
@@ -225,17 +242,12 @@
     "_posts/技术/_posts/技术/UE5-pawn移动相关",
     "_posts/技术/_posts/技术",
     "_posts/技术/_posts",
-    "_drafts/技术/antd-mobile使用记录.md",
     "_drafts/技术/Nextjs中关于SSR的应用.md",
     "_drafts/乐评",
-    "_posts/漫画随笔",
-    "_posts/技术",
     "_drafts/hello-world.md",
     "_drafts/css.md",
     "技术/Nextjs中关于SSR的应用.md",
     "技术/未命名.md",
-    "技术/amis.md",
-    "漫画随笔/连载中/影宅.md",
-    "漫画随笔/连载中/我家使魔给您添麻烦了.md"
+    "技术/amis.md"
   ]
 }
