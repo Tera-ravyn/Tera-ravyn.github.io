@@ -3,5 +3,6 @@
   "newFileLocation": "folder",
   "newFileFolderPath": "_drafts",
   "attachmentFolderPath": "/",
-  "useMarkdownLinks": true
+  "useMarkdownLinks": true,
+  "strictLineBreaks": true
 }
