@@ -97,5 +97,16 @@
       ],
       "key": "Y"
     }
-  ]
+  ],
+  "quickadd:choice:4b9d20d0-2293-487d-86c8-14f836936870": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "I"
+    }
+  ],
+  "easy-typing-obsidian:easy-typing-format-switch": [],
+  "easy-typing-obsidian:easy-typing-insert-codeblock": []
 }

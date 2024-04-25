@@ -15,7 +15,7 @@
       },
       "format": {
         "enabled": true,
-        "format": "---\ntitle: {{value: 标题}}\ncategories: {{value:技术,乐评,漫画随笔}}\ntags: \ncreateDate: {{DATE:YYYY-MM-DD HH:mm:ss}}\nupdateDate: {{DATE:YYYY-MM-DD HH:mm:ss}}\n---"
+        "format": "---\ntitle: {{value: 标题}}\ncategories: {{value:技术,乐评,漫画随笔}}\ntags: \ncreate: {{DATE:YYYY-MM-DD HH:mm:ss}}\nupdated: {{DATE:YYYY-MM-DD HH:mm:ss}}\n---"
       },
       "insertAfter": {
         "enabled": false,
@@ -41,6 +41,41 @@
       "type": "Macro",
       "command": true,
       "macroId": "bc7d4235-0b3c-4111-b702-f8f4de8110dc"
+    },
+    {
+      "id": "4b9d20d0-2293-487d-86c8-14f836936870",
+      "name": "image",
+      "type": "Capture",
+      "command": true,
+      "appendLink": false,
+      "captureTo": "",
+      "captureToActiveFile": true,
+      "createFileIfItDoesntExist": {
+        "enabled": false,
+        "createWithTemplate": false,
+        "template": ""
+      },
+      "format": {
+        "enabled": true,
+        "format": "<center> <img style=\"border-radius: 0.3125em; box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 0 0 rgba(34,36,38,.08);\" src=\"这里输入图片地址\"> <div style=\"border-bottom: 1px solid #d9d9d9; display: inline-block; color: #999; padding: 0px;\">这里输入题注</div> </center>"
+      },
+      "insertAfter": {
+        "enabled": false,
+        "after": "",
+        "insertAtEnd": false,
+        "considerSubsections": false,
+        "createIfNotFound": false,
+        "createIfNotFoundLocation": "top"
+      },
+      "prepend": true,
+      "task": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
+      "openFileInMode": "default"
     }
   ],
   "macros": [
@@ -67,7 +102,7 @@
             },
             "format": {
               "enabled": true,
-              "format": "---\ntitle: {{value:标题}}\ncategories: {{value:技术,乐评,漫画随笔}}\ntags: \ncreateDate: {{DATE:YYYY-MM-DD HH:mm:ss}}\nupdateDate: {{DATE:YYYY-MM-DD HH:mm:ss}}\n---"
+              "format": "---\ntitle: {{value:标题}}\ncategories: {{value:技术,乐评,漫画随笔}}\ntags: \ncreate: {{DATE:YYYY-MM-DD HH:mm:ss}}\nupdated: {{DATE:YYYY-MM-DD HH:mm:ss}}\ncover:\n---"
             },
             "insertAfter": {
               "enabled": false,

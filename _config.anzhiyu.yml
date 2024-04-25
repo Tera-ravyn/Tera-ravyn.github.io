@@ -228,8 +228,8 @@ post_copyright:
   decode: false
   author_href:
   location: 成都
-  license: CC BY-NC-ND 4.0 DEED
-  license_url: https://creativecommons.org/licenses/by-nc-nd/4.0/
+  license: CC BY-NC 4.0
+  license_url: https://creativecommons.org/licenses/by-nc/4.0/
   avatarSinks: false # hover时头像下沉
   copyright_author_img_back:
   copyright_author_img_front:
@@ -249,7 +249,7 @@ reward:
 # Post edit
 # Easily browse and edit blog source code online.
 post_edit: # 目前仅可选择一个平台在线编辑
-  enable: true
+  enable: false
   # github: https://github.com/user-name/repo-name/edit/branch-name/subdirectory-name/
   # For example: https://github.com/jerryc127/butterfly.js.org/edit/main/source/
   github: true
@@ -579,7 +579,7 @@ google_adsense:
 
 site_verification:
   - name: google-site-verification
-    content: xxx
+    content: gtUy-vNADGcKmC94drIIvqzWJdlAs-R0wbGSnhSIu1c
   - name: baidu-site-verification
     content: code-xxx
   - name: msvalidate.01

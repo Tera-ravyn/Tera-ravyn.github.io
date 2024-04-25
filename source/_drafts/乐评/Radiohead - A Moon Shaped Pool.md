@@ -6,18 +6,16 @@ tags:
   - rock
   - alternative-rock
   - album
-createDate: 2024-04-11 14:48:23
-updateDate: 2024-04-11 14:48:23
+date: 2024-04-11 14:48:23
+updated: 2024-04-11 14:48:23
 ---
-## 基本信息
 
+## 基本信息
 
 ## 整专评价
 
-
 ## Track by track
+
 ### True love waits
 
 ### Daydreaming
-
-
