@@ -1,0 +1,1 @@
+var posts=["2024/04/15/乐评/Os Garotin/","2024/04/12/乐评/Slipknot - Slipknot/","2024/04/08/技术/UE5 - pawn移动相关/","2024/06/04/漫画随笔/腹腹教师/"];function toRandomPost(){pjax.loadUrl('/'+posts[Math.floor(Math.random() * posts.length)]);};
