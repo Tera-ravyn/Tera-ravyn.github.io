@@ -4,12 +4,12 @@ categories: 乐评
 tags:
   - Radiohead
   - rock
-  - alternative-rock
   - album
-date: 2024-04-11 14:55:11
-updated: 2024-04-11 14:55:11
+date: 2024/04/11 14:13:57
+updated: 2024/04/25 11:37:51
+cover: https://i.discogs.com/ORDOcW8gyxAoTrX-dhu3X6BFrgvBaVinTRQmITK1ym8/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwNDcx/MDA5LTE0OTgxNDM1/NjYtMTEyNi5qcGVn.jpeg
 ---
-
+![NjYtMTEyNi5qcGVn.jpeg (600×600) (discogs.com)](https://i.discogs.com/ORDOcW8gyxAoTrX-dhu3X6BFrgvBaVinTRQmITK1ym8/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwNDcx/MDA5LTE0OTgxNDM1/NjYtMTEyNi5qcGVn.jpeg)
 ## 基本信息
 
 发行于：
