@@ -1,0 +1,100 @@
+- class_name: 关于页
+  subtitle: Promise you'll await for me
+  avatarImg: https://image.baidu.com/search/down?url=https://imglf6.lf127.net/img/6e127618644fc9e9/SHRJMUQ3VE0yMkxkam50eTltNkF4TWUrNnJaa2hpRzJDUlpYcktxdW9qTT0.png?imageView&thumbnail=500x0&quality=96&stripmeta=0
+  avatarSkills:
+    left:
+      - 噬谎者
+      - 街霸6
+      - ff14
+    right:
+      - 活结
+      - 术力口
+      - 锈湖
+  name: 止一寺
+  description: Which Cake? 贝斯手
+  aboutsiteTips:
+    tips: 存在方式
+    title1: 学艺不精
+    title2: 包括且不限于
+    word:
+      - 画画
+      - bass
+      - 代码
+      - 活着
+  helloAbout: Hello world!
+  skillsTips:
+    tips: 技能
+    title: 开启创造力
+  careers:
+    tips: 生涯
+    title: 无限退步
+    list:
+      - desc: ZJU，软件工程
+        color: "#357ef5"
+      - desc: 街霸6，阿宅
+        color: "#9D2D2D"
+    img:
+  statistic:
+    link: /archives
+    text: 文章隧道
+    cover: https://bu.dusays.com/2023/05/01/644f4b037b930.jpg
+  map:
+    title:
+    StrengthenTitle:
+    background: https://bu.dusays.com/2023/07/05/64a4c61cb20ef.jpg
+    backgroundDark: https://bu.dusays.com/2023/07/05/64a4c63495ac5.jpg
+  selfInfo:
+    selfInfoTips1: 生于
+    selfInfoContentYear: 1002
+    selfInfoTips2: 折姜大学
+    selfInfoContent2: 阮贱公橙
+    selfInfoTips3: 现在职业
+    selfInfoContent3: 乾端公橙尸
+  personalities:
+    author_name: 鉴赏家
+    personality_type: ISTP-A
+    photo_url: https://bu.dusays.com/2023/07/05/64a4c63495ac5.jpg
+    personality_img: https://npm.elemecdn.com/anzhiyu-blog@2.0.8/img/svg/ISTP-A.svg
+    name_url: https://www.16personalities.com/ch/istp-%E4%BA%BA%E6%A0%BC
+  maxim:
+    maxim_tips: 座右铭
+    maxim_top: 无法忘却的事，
+    maxim_bottom: 但是忘掉了。
+  buff:
+    buff_tips: 特长
+    buff_top: 无声bass
+    buff_bottom: 造谣同人
+  game:
+    game_tips: 爱好游戏
+    game_title: 街头霸王6
+    game_uid: "ID: 2932107532"
+    game_bg: https://images2.alphacoders.com/124/1244848.jpg
+  comic:
+    comic_tips: 漫画收藏家
+    comic_title: 推荐漫画
+    comic_list:
+      - name: 难缠的金刚寺同学/金剛寺さんは面倒臭い
+        href: https://gekkansunday.net/work/418/
+        cover: https://shogakukan-comic.jp/book-images/w400/books/9784091282088.jpg
+      - name: 腹腹教师/腹腹先生
+        href: https://shonenjumpplus.com/episode/3269754496422246690
+        cover: https://cdn-scissors.gigaviewer.com/image/scale/e2972e18c8ab017b8ff9cfe8f7ef8def40ade365/enlarge=0;height=484;no_unsharpmask=1;quality=90;version=1;width=484/https%3A%2F%2Fcdn-ak-img.shonenjumpplus.com%2Fpublic%2Fseries-thumbnail%2F3269754496422246683-5d1ae0712bd346e383ea9265f855000b%3F1711560996
+      - name: 月光条例/月光条例
+        href: https://www.mangazenkan.com/items/9123/
+        cover: https://dip6t338iqjb9.cloudfront.net/upload/save_image/123/KE-63.jpg?29
+      - name: 噬谎者/嘘喰い
+        href: https://youngjump.jp/info/usogui/
+        cover: https://assets.st-note.com/production/uploads/images/75327991/picture_pc_d30aaccfd8ff13963e59ce492073bb88.jpeg?width=800
+      - name: 对你着迷了/夢中さ、きみに。
+        href: https://comicspace.jp/title/118886
+        cover: https://api.comicspace.jp/v2.0//images/books/4047357189.324.450.resize.jpg
+  like:
+    like_tips: 现在主推
+    like_title: 街霸6-主巴什
+    like_bg: https://image.baidu.com/search/down?url=https://imglf6.lf127.net/img/6e127618644fc9e9/SHRJMUQ3VE0yMkxkam50eTltNkF4TWUrNnJaa2hpRzJDUlpYcktxdW9qTT0.png?imageView&thumbnail=500x0&quality=96&stripmeta=0
+    like_bottom: 给口饭吃吧
+  music:
+    music_tips: 音乐偏好
+    music_title: 重型、摇滚、爵士、CityPop、拉美
+    music_bg: https://playtusu.com/wp-content/uploads/2019/06/radiohead-2-1310x882.jpg
+    music_link: /music
