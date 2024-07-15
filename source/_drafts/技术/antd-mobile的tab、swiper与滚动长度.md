@@ -4,7 +4,7 @@ categories: 技术
 tags:
   - antd-mobile
   - tailwind
-create: 2024-05-20 11:26:20
+date: 2024-05-20 11:26:20
 updated: 2024/05/20 18:06:55
 cover:
 date: 2024/05/20 11:26:20

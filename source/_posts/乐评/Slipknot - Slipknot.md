@@ -6,6 +6,7 @@ tags:
   - Metal
   - Nu-Metal
   - album
+  - 乐评
 date: 2024/04/12 14:51:03
 updated: 2024/04/18 09:18:52
 cover: https://i.discogs.com/EWxPXODE0YtZwHUWpjy581jXpFnssiv-1Ei6q1FXL-U/rs:fit/g:sm/q:90/h:600/w:594/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTU0NTQ4/MC0xNTc1MzI5OTk0/LTQyNDEuanBlZw.jpeg

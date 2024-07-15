@@ -1,21 +1,33 @@
 menu:
-  技术:
-    前端: /frontend/
-    UE: /UE/
+  # 技术:
+  #   前端: /tags/前端/
+  #   UE: /tags/UE/
 
-  漫画:
-    漫评: /manga/ || fas fa-book-open
-    同人: /douji/ || fas fa-paintbrush
+  # 漫画:
+  #   漫评: /tags/漫画/ || fas fa-book-open
+  #   同人: /tags/同人/ || fas fa-paintbrush
 
-  音乐:
-    乐评: /music/ || fas fa-headphones
-    小空调: /air-conditioner/ || fas fa-fan
+  # 音乐:
+  #   乐评: /music/ || fas fa-headphones
+  #   小空调: /air-conditioner/ || fas fa-fan
+  文章:
+    归档: /archives/ || anzhiyu-icon-box-archive
+    分类: /categories/ || anzhiyu-icon-shapes
+    标签: /tags/ || anzhiyu-icon-tags
 
+  友链:
+    # 友人帐: /link/ || anzhiyu-icon-link
+    # 朋友圈: /fcircle/ || anzhiyu-icon-artstation
+    留言板: /comments/ || anzhiyu-icon-envelope
+
+  我的:
+    音乐馆: /music/ || anzhiyu-icon-music
+    追漫页: /bangumis/ || anzhiyu-icon-bilibili
+    同人集: /album/ || anzhiyu-icon-images
+    # 小空调: /air-conditioner/ || anzhiyu-icon-fan
   关于:
     关于本人: /about/ || anzhiyu-icon-paper-plane
     闲言碎语: /essay/ || anzhiyu-icon-lightbulb
-    留言板: /comments/ || anzhiyu-icon-envelope
-    标签: /tags/ || anzhiyu-icon-tags
     随便逛逛: javascript:toRandomPost() || anzhiyu-icon-shoe-prints1
 
 # nav相关配置
@@ -142,9 +154,13 @@ disable_top_img: false
 index_img: "background: url(/img/15yeah.jpg) top / cover no-repeat"
 
 # If the banner of page not setting, it will show the top_img
-default_top_img: "background: url(/img/junge.jpeg) top / cover no-repeat"
+default_top_img: false
 
-category_img: /img/junge.jpeg
+category_img: false
+
+tag_per_img:
+  前端: "background: url(/img/15yeah.jpg) top / cover no-repeat"
+  漫评: "background: url(/img/15yeah.jpg) top / cover no-repeat"
 
 cover:
   # display the cover or not (是否显示文章封面)

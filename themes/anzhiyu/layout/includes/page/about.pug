@@ -27,9 +27,8 @@ if site.data.about
       p.p.center.small=subtitle
       .author-content
         .author-content-item.myInfoAndSayHello
-          .title1 你好，很高兴认识你👋
+          .title1 你好，我是
           .title2
-            | 我叫 
             span.inline-word=aboutName
           .title1=aboutDescription
         .aboutsiteTips.author-content-item
@@ -109,18 +108,18 @@ if site.data.about
         .author-content-item-group.column.mapAndInfo
           - let mapBackground = item.map.background
           - let mapBackgroundDark = item.map.backgroundDark
-          style.
-            .author-content-item.map {
-              background-image: url(#{mapBackground});
-            }
-            [data-theme='dark'] .author-content-item.map {
-              background-image: url(#{mapBackgroundDark});
-            }
-          .author-content-item.map.single
-            - let mapTitle = item.map.title
-            - let mapStrengthenTitle = item.map.StrengthenTitle
-            span.map-title=mapTitle
-              b=mapStrengthenTitle
+          //- style.
+          //-   .author-content-item.map {
+          //-     background-image: url(#{mapBackground});
+          //-   }
+          //-   [data-theme='dark'] .author-content-item.map {
+          //-     background-image: url(#{mapBackgroundDark});
+          //-   }
+          //- .author-content-item.map.single
+          //-   - let mapTitle = item.map.title
+          //-   - let mapStrengthenTitle = item.map.StrengthenTitle
+          //-   span.map-title=mapTitle
+          //-     b=mapStrengthenTitle
           .author-content-item.selfInfo.single
             - let { selfInfoTips1, selfInfoContentYear, selfInfoTips2, selfInfoContent2, selfInfoTips3, selfInfoContent3 } = item.selfInfo
             div
@@ -136,21 +135,21 @@ if site.data.about
               |  
               span.selfInfo-content(style='color:#b04fe6')=selfInfoContent3
       
-      .author-content
-        .author-content-item.personalities
-          - let {author_name, personality_type, photo_url, personality_img, name_url, personality_type_color} = item.personalities
-          .author-content-item-tips 性格
-          span.author-content-item-title= author_name
-          .title2(style=`color:${personality_type_color ? personality_type_color : "#ac899c"}`)= personality_type
-          .post-tips
-            | 在 
-            a(href='https://www.16personalities.com/', target='_blank', rel='noopener nofollow') 16personalities
-            |  了解更多关于 
-            a(target='_blank', rel='noopener external nofollow', href= name_url)= author_name
-          .image
-            img.no-lightbox(src=url_for(personality_img), alt='人格')
-        .author-content-item.myphoto
-          img.author-content-img.no-lightbox(alt='自拍', src=url_for(photo_url))
+      //- .author-content
+      //-   .author-content-item.personalities
+      //-     - let {author_name, personality_type, photo_url, personality_img, name_url, personality_type_color} = item.personalities
+      //-     .author-content-item-tips 性格
+      //-     span.author-content-item-title= author_name
+      //-     .title2(style=`color:${personality_type_color ? personality_type_color : "#ac899c"}`)= personality_type
+      //-     .post-tips
+      //-       | 在 
+      //-       a(href='https://www.16personalities.com/', target='_blank', rel='noopener nofollow') 16personalities
+      //-       |  了解更多关于 
+      //-       a(target='_blank', rel='noopener external nofollow', href= name_url)= author_name
+      //-     .image
+      //-       img.no-lightbox(src=url_for(personality_img), alt='人格')
+      //-   .author-content-item.myphoto
+      //-     img.author-content-img.no-lightbox(alt='自拍', src=url_for(photo_url))
       
       .author-content
         .author-content-item.maxim

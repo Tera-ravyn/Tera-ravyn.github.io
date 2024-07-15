@@ -9,9 +9,9 @@
     right:
       - 活结
       - 术力口
-      - 锈湖
-  name: 止一寺
-  description: Which Cake? 贝斯手
+      - UE
+  name: 止一 寺
+  description: シイツ テラ / Ravyn
   aboutsiteTips:
     tips: 存在方式
     title1: 学艺不精
@@ -24,14 +24,16 @@
   helloAbout: Hello world!
   skillsTips:
     tips: 技能
-    title: 开启创造力
+    title: 秃头是留给有准备的人的
   careers:
     tips: 生涯
     title: 无限退步
     list:
       - desc: ZJU，软件工程
         color: "#357ef5"
-      - desc: 街霸6，阿宅
+      - desc: FF14，暗黑骑士
+        color: "#F7B03A"
+      - desc: 街霸6，桑吉尔夫
         color: "#9D2D2D"
     img:
   statistic:
@@ -41,8 +43,8 @@
   map:
     title:
     StrengthenTitle:
-    background: https://bu.dusays.com/2023/07/05/64a4c61cb20ef.jpg
-    backgroundDark: https://bu.dusays.com/2023/07/05/64a4c63495ac5.jpg
+    background:
+    backgroundDark:
   selfInfo:
     selfInfoTips1: 生于
     selfInfoContentYear: 1002
