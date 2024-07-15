@@ -56,6 +56,9 @@ dependencies:
   hexo-theme-landscape:
     specifier: ^1.0.0
     version: 1.0.0
+  hexo-wordcount:
+    specifier: ^6.0.1
+    version: 6.0.1
 
 packages:
 
@@ -1803,6 +1806,10 @@ packages:
       htmlparser2: 9.0.0
       prismjs: 1.29.0
       strip-indent: 3.0.0
+    dev: false
+
+  /hexo-wordcount@6.0.1:
+    resolution: {integrity: sha512-tbo2P9xRWEKQmRf7+XuPjx9It1MnaE26nA+EEb2DN39gK1x+26W7Nm4Iyp4AugQjBWYYDx7OLn4gp1WFxQpQew==}
     dev: false
 
   /hexo@3.9.0:
