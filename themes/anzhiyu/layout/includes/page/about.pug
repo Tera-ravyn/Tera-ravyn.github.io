@@ -95,9 +95,9 @@ if site.data.about
               .author-content-item-tips 数据
               span.author-content-item-title 访问统计
               #statistic
-              .post-tips
-                | 统计信息来自 
-                a(href='https://invite.51.la/1NzKqTeb?target=V6', target='_blank', rel='noopener nofollow') 51la网站统计
+              //- .post-tips
+              //-   | 统计信息来自 
+              //-   a(href='https://invite.51.la/1NzKqTeb?target=V6', target='_blank', rel='noopener nofollow') 51la网站统计
               .banner-button-group
                 - let link = item.statistic.link
                 - let text = item.statistic.text
@@ -108,18 +108,18 @@ if site.data.about
         .author-content-item-group.column.mapAndInfo
           - let mapBackground = item.map.background
           - let mapBackgroundDark = item.map.backgroundDark
-          //- style.
-          //-   .author-content-item.map {
-          //-     background-image: url(#{mapBackground});
-          //-   }
-          //-   [data-theme='dark'] .author-content-item.map {
-          //-     background-image: url(#{mapBackgroundDark});
-          //-   }
-          //- .author-content-item.map.single
-          //-   - let mapTitle = item.map.title
-          //-   - let mapStrengthenTitle = item.map.StrengthenTitle
-          //-   span.map-title=mapTitle
-          //-     b=mapStrengthenTitle
+          style.
+            .author-content-item.map {
+              background-image: url(#{mapBackground});
+            }
+            [data-theme='dark'] .author-content-item.map {
+              background-image: url(#{mapBackgroundDark});
+            }
+          .author-content-item.map.single
+            - let mapTitle = item.map.title
+            - let mapStrengthenTitle = item.map.StrengthenTitle
+            span.map-title=mapTitle
+              b=mapStrengthenTitle
           .author-content-item.selfInfo.single
             - let { selfInfoTips1, selfInfoContentYear, selfInfoTips2, selfInfoContent2, selfInfoTips3, selfInfoContent3 } = item.selfInfo
             div
