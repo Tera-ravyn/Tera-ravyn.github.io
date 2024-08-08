@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_drafts/游戏/街霸6泛用贴条笔记.md",
+                "file": "_drafts/游戏/桑吉尔夫从入门到Muscle.md",
                 "mode": "source",
                 "source": false
               }
@@ -38,25 +38,6 @@
               "type": "markdown",
               "state": {
                 "file": "_posts/技术/手搓带蒙层的下拉选择框或手风琴.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ],
-        "currentTab": 1
-      },
-      {
-        "id": "d476fb622414c262",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "dae6d878a6fb6d48",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_drafts/街霸/搓招小技巧.md",
                 "mode": "source",
                 "source": false
               }
@@ -128,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_drafts/游戏/街霸6泛用贴条笔记.md",
+                "file": "_drafts/游戏/桑吉尔夫从入门到Muscle.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_drafts/游戏/街霸6泛用贴条笔记.md",
+                "file": "_drafts/游戏/桑吉尔夫从入门到Muscle.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_drafts/游戏/街霸6泛用贴条笔记.md"
+                "file": "_drafts/游戏/桑吉尔夫从入门到Muscle.md"
               }
             }
           }
@@ -189,10 +170,11 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "a3badeb7110baf74",
+  "active": "f76a406f3e1c74c4",
   "lastOpenFiles": [
-    "_drafts/游戏/桑吉尔夫从入门到Muscle.md",
     "_drafts/游戏/街霸6泛用贴条笔记.md",
+    "_drafts/游戏/桑吉尔夫从入门到Muscle.md",
+    "_drafts/游戏/角色常见立回行为.md",
     "_drafts/街霸/搓招小技巧.md",
     "_drafts/游戏/就算失去了无敌的下中拳你也是我最喜欢的教官.md",
     "_drafts/游戏/街霸6泛用贴条笔记",
