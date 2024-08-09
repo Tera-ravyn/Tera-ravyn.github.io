@@ -43,8 +43,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,14 +109,14 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_drafts/游戏/街霸6泛用贴条笔记.md",
+                "file": "_drafts/游戏/桑吉尔夫从入门到Muscle.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               }
             }
           },
@@ -127,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_drafts/游戏/街霸6泛用贴条笔记.md",
+                "file": "_drafts/游戏/桑吉尔夫从入门到Muscle.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,16 +149,16 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_drafts/游戏/街霸6泛用贴条笔记.md"
+                "file": "_drafts/游戏/桑吉尔夫从入门到Muscle.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -171,10 +170,13 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "a3badeb7110baf74",
+  "active": "f76a406f3e1c74c4",
   "lastOpenFiles": [
-    "_drafts/游戏/桑吉尔夫从入门到Muscle.md",
     "_drafts/游戏/街霸6泛用贴条笔记.md",
+    "_drafts/游戏/桑吉尔夫从入门到Muscle.md",
+    "_drafts/游戏/桑吉尔夫从入门到Muscle",
+    "_drafts/游戏/桑吉尔夫从入门到Muscle/IMG-20240809160431001.jpg",
+    "_drafts/未命名.md",
     "_drafts/游戏/角色常见立回行为.md",
     "_drafts/街霸/搓招小技巧.md",
     "_drafts/游戏/就算失去了无敌的下中拳你也是我最喜欢的教官.md",
@@ -198,7 +200,6 @@
     "_posts/乐评/Slipknot - Slipknot.md",
     "_posts/同人/泳夏/IMG-20240715162153538.jpg",
     "Pasted image 20240715164923.png",
-    "Pasted image 20240715164912.png",
     "_posts/同人/泳夏",
     "_posts/技术/UE5 - pawn移动相关.md",
     "about/index.md",
@@ -211,13 +212,10 @@
     "_drafts/技术/手搓根据滚动条自动展开的顶部Info Card.md",
     "_posts/漫画随笔/腹腹教师.md",
     "_drafts/RVO6.md",
-    "_drafts/hello-world.md",
-    "_drafts/2024-07-15.md",
     "_posts/同人",
     "_drafts/游戏",
     "_posts/游戏",
     "_data/about.yml",
-    "_data/新建 文本文档.txt",
-    "about"
+    "_data/新建 文本文档.txt"
   ]
 }
