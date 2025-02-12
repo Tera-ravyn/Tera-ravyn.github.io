@@ -36,7 +36,7 @@ MHRUnpack 的使用方式：将 .list 文件更名为 `MHRisePC.list` ，放置�
 
 Noesis 是一款可以查看各种模型格式文件以及对模型进行格式转换、导入导出的工具。
 
-配合插件，它可以把 RE Engine 的专有格式如.mesh.230110883 以及.mdf2.31转换到 `.fbx` 格式，以便导入其他建模工具。不过，如果使用 blender 进行编辑操作，它不是非常必要，可以直接跳到 [3. Blender 及其插件](### 3. Blender 及其插件) 。
+配合插件，它可以把 RE Engine 的专有格式如 `.mesh.230110883` 以及 `.mdf2.31` 转换到 `.fbx` 格式，以便导入其他建模工具。不过，如果使用 blender 进行编辑操作，它不是非常必要，可以直接跳到 [3. Blender 及其插件](### 3. Blender 及其插件) 。
 
 插件的安装方式：安装 Noesis 之后，打开 `[Noesis 安装路径]/plugins/python` 文件夹并将  `fmt_RE_MESH.py` 放入其中，然后重新启动该程序。安装插件后，使用 Noesis 打开网格或 `tex` 文件将自动加载它。
 
@@ -46,7 +46,7 @@ Noesis 是一款可以查看各种模型格式文件以及对模型进行格式�
 
 ### 3. Blender 及其插件
 
-[直接在 Blender 内导入导出 RE Engine 的 mesh 和 mdf2 文件的插件]()
+[直接在 Blender 内导入导出 RE Engine 的 mesh 和 mdf2 文件的插件](https://github.com/NSACloud/RE-Mesh-Editor)
 
 [在 Blender 的资产文件夹里直接浏览 RE Engine 文件的插件](https://github.com/NSACloud/RE-Asset-Library)
 
@@ -163,7 +163,7 @@ patch_009：玛丽莎皮肤三部分模型更新。
 
 patch_010：增加了爱德的模型，更新了所有角色的 chain 文件。
 
-patch_011：增加了豪鬼的模型，更新了隆的部分模型，更新了配色（对应 `custom_colors_file` 字段的 CCVD 文件）,肌肉动画（对应 ` muscle_control_udata` 字段的 shape 文件）, 部分物理效果（havok 文件）。
+patch_011：增加了豪鬼的模型，更新了隆的部分模型，更新了配色（对应 `custom_colors_file` 字段的 CCVD 文件），肌肉动画（对应 ` muscle_control_udata` 字段的 shape 文件）, 部分物理效果（havok 文件）。
 
 patch_012：增加了维加的模型。
 
