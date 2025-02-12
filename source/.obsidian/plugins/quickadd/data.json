@@ -93,7 +93,7 @@
             "type": "Capture",
             "command": false,
             "appendLink": false,
-            "captureTo": "_drafts/{{value:技术,乐评,漫画随笔,游戏,同人}}/{{value:标题}}",
+            "captureTo": "_drafts/{{value:技术,乐评,漫画随笔,游戏,同人,漫谈}}/{{value:标题}}",
             "captureToActiveFile": false,
             "createFileIfItDoesntExist": {
               "enabled": true,
@@ -102,7 +102,7 @@
             },
             "format": {
               "enabled": true,
-              "format": "---\ntitle: {{value:标题}}\ncategories: {{value:技术,乐评,漫画随笔,游戏,同人}}\ntags: \ndate: {{DATE:YYYY-MM-DD HH:mm:ss}}\nupdated: {{DATE:YYYY-MM-DD HH:mm:ss}}\ncover:\n---"
+              "format": "---\ntitle: {{value:标题}}\ncategories: {{value:技术,乐评,漫画随笔,游戏,同人,漫谈}}\ntags: \ndate: {{DATE:YYYY-MM-DD HH:mm:ss}}\nupdated: {{DATE:YYYY-MM-DD HH:mm:ss}}\ncover:\n---"
             },
             "insertAfter": {
               "enabled": false,

@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f76a406f3e1c74c4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_drafts/游戏/桑吉尔夫从入门到Muscle.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "0ae50f3cb470ad18",
             "type": "leaf",
             "state": {
@@ -28,7 +16,77 @@
                 "file": "_drafts/游戏/街霸6泛用贴条笔记.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "街霸6泛用贴条笔记"
+            }
+          },
+          {
+            "id": "be6ed4eb9b1eff63",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_drafts/乐评/Radiohead - OK Computer OKNOTOK 1997 2017.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Radiohead - OK Computer OKNOTOK 1997 2017"
+            }
+          },
+          {
+            "id": "384430380aa00b9f",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.7.7"
+              },
+              "icon": "lucide-file",
+              "title": "Release Notes 1.7.7"
+            }
+          },
+          {
+            "id": "c5ea288b67d7cea9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_drafts/漫画随笔/千年万年苹果之子.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "千年万年苹果之子"
+            }
+          },
+          {
+            "id": "b57fa6cc6316ce27",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_drafts/技术/技术整理.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "技术整理"
+            }
+          },
+          {
+            "id": "d762085cbc2f04ff",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_drafts/漫谈/我也在抵抗SNS.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "我也在抵抗SNS"
             }
           },
           {
@@ -37,10 +95,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_drafts/游戏/街霸6泛用贴条笔记.md",
+                "file": "_posts/游戏/街霸6Mod制作入门1-解包与导出Mod.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "街霸6Mod制作入门1-解包与导出Mod"
+            }
+          },
+          {
+            "id": "fc5ec540a5b09421",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_drafts/游戏/街霸6Mod制作入门2-部件替换.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "街霸6Mod制作入门2-部件替换"
             }
           },
           {
@@ -52,10 +126,13 @@
                 "file": "_posts/技术/手搓带蒙层的下拉选择框或手风琴.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "手搓带蒙层的下拉选择框或手风琴"
             }
           }
-        ]
+        ],
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -75,7 +152,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
             }
           },
           {
@@ -84,13 +163,15 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "create",
+                "query": "(#",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
             }
           },
           {
@@ -98,7 +179,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
             }
           }
         ]
@@ -121,7 +204,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_drafts/游戏/桑吉尔夫从入门到Muscle.md",
+                "file": "_drafts/游戏/街霸6泛用贴条笔记.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +212,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": false
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "街霸6泛用贴条笔记 的反向链接列表"
             }
           },
           {
@@ -138,10 +223,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_drafts/游戏/桑吉尔夫从入门到Muscle.md",
+                "file": "_drafts/游戏/街霸6泛用贴条笔记.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "街霸6泛用贴条笔记 的出链列表"
             }
           },
           {
@@ -152,7 +239,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
             }
           },
           {
@@ -161,8 +250,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_drafts/游戏/桑吉尔夫从入门到Muscle.md"
-              }
+                "file": "_posts/游戏/街霸6Mod制作入门1-解包与导出Mod.md"
+              },
+              "icon": "lucide-list",
+              "title": "街霸6Mod制作入门1-解包与导出Mod 的大纲"
             }
           }
         ],
@@ -170,7 +261,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 301.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -182,53 +273,53 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "f76a406f3e1c74c4",
+  "active": "6e13b36c8c96fc62",
   "lastOpenFiles": [
-    "_posts/技术/手搓带蒙层的下拉选择框或手风琴.md",
-    "_drafts/游戏/桑吉尔夫从入门到Muscle.md",
+    "_drafts/游戏/街霸6Mod制作入门2-部件替换.md",
+    "_posts/游戏/街霸6Mod制作入门1-解包与导出Mod.md",
+    "_drafts/漫谈/我也在抵抗SNS.md",
     "_drafts/游戏/街霸6泛用贴条笔记.md",
-    "_drafts/游戏/冠军角色搬砖富二代你说我玩不玩.md",
-    "_drafts/游戏/就算失去了无敌的下中拳你也是我最喜欢的教官.md",
+    "_drafts/技术/技术整理.md",
+    "_drafts/游戏/桑吉尔夫从入门到Muscle.md",
+    "_drafts/乐评/脏手指 - 我怎么学的这么坏.md",
+    "_drafts/css.md",
+    "_drafts/乐评/Slipknot - .5 The Gray Chapter.md",
+    "_posts/乐评/Slipknot - Slipknot.md",
+    "_drafts/技术/UE5 - 样条线绘制可动引导线.md",
+    "_posts/技术/UE5 - pawn移动相关.md",
+    "_posts/技术/手搓带蒙层的下拉选择框或手风琴.md",
+    "_drafts/漫谈",
+    "_drafts/漫画随笔/千年万年苹果之子.md",
+    "_drafts/漫画随笔/limbo king.md",
+    "_drafts/漫画随笔/约定的梦幻岛.md",
+    "_drafts/漫画随笔/死役所.md",
+    "_drafts/漫画随笔/极道鲜师.md",
+    "_drafts/漫画随笔/关根之恋.md",
+    "_drafts/漫画随笔/已完结/企鹅革命.md",
+    "_drafts/漫画随笔/连载中/影宅.md",
+    "_drafts/漫画随笔/连载中/九龙大众浪漫.md",
+    "_drafts/漫画随笔/连载中/我家使魔给您添麻烦了.md",
+    "_drafts/乐评/Radiohead - A Moon Shaped Pool.md",
+    "_drafts/乐评/短歌 - 短歌.md",
+    "_drafts/乐评/Radiohead - OK Computer OKNOTOK 1997 2017.md",
     "_drafts/游戏/桑吉尔夫从入门到Muscle",
     "_drafts/游戏/桑吉尔夫从入门到Muscle/IMG-20240809160431001.jpg",
-    "_drafts/未命名.md",
-    "_drafts/游戏/角色常见立回行为.md",
-    "_drafts/街霸/搓招小技巧.md",
     "_drafts/游戏/街霸6泛用贴条笔记",
     "_drafts/游戏/街霸6泛用贴条笔记/IMG-20240726172543800.png",
-    "_drafts/街霸/卢克 - 基础操作.md",
-    "_drafts/街霸/基础立回.md",
-    "_posts/同人/使其融化.md",
     "_posts/同人/使其融化",
     "_posts/同人/使其融化/IMG-20240715165713790.png",
-    "_posts/同人/Instant Date.md",
-    "_posts/同人/泳夏.md",
     "_posts/同人/Instant Date/IMG-20240715165316166.png",
     "_posts/同人/Instant Date/IMG-20240715165316166.jpg",
-    "_posts/同人/初恋幻觉.md",
     "_posts/同人/泳夏/IMG-20240715165432377.jpg",
     "E$H%1{C64UZYZ}AA5CG{_OU 1.jpg",
     "_posts/同人/Instant Date",
     "镜中门梶.png",
-    "_posts/乐评/Slipknot - Slipknot.md",
     "_posts/同人/泳夏/IMG-20240715162153538.jpg",
     "Pasted image 20240715164923.png",
     "_posts/同人/泳夏",
-    "_posts/技术/UE5 - pawn移动相关.md",
-    "about/index.md",
-    "_drafts/技术/antd-mobile的tab、swiper与滚动长度.md",
-    "_drafts/乐评/Radiohead - OK Computer OKNOTOK 1997 2017.md",
-    "_drafts/乐评/James Bay - Pink Lemonade.md",
-    "_drafts/技术/UE5 - 样条线绘制可动引导线.md",
-    "_drafts/乐评/脏手指 - 我怎么学的这么坏.md",
-    "_drafts/技术/手搓左右横跳的TabBar Indicator.md",
-    "_drafts/技术/手搓根据滚动条自动展开的顶部Info Card.md",
-    "_posts/漫画随笔/腹腹教师.md",
-    "_drafts/RVO6.md",
     "_posts/同人",
     "_drafts/游戏",
     "_posts/游戏",
-    "_data/about.yml",
-    "_data/新建 文本文档.txt"
+    "_data/about.yml"
   ]
 }

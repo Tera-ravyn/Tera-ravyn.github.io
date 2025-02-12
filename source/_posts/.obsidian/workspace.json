@@ -11,8 +11,14 @@
             "id": "12d953d4a37bfa15",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "技术/手搓带蒙层的下拉选择框或手风琴.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "手搓带蒙层的下拉选择框或手风琴"
             }
           }
         ]
@@ -35,7 +41,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
             }
           },
           {
@@ -50,7 +58,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
             }
           },
           {
@@ -58,7 +68,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
             }
           }
         ]
@@ -81,6 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "技术/手搓带蒙层的下拉选择框或手风琴.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,7 +101,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "手搓带蒙层的下拉选择框或手风琴 的反向链接列表"
             }
           },
           {
@@ -97,9 +112,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "技术/手搓带蒙层的下拉选择框或手风琴.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "手搓带蒙层的下拉选择框或手风琴 的出链列表"
             }
           },
           {
@@ -110,7 +128,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
             }
           },
           {
@@ -118,7 +138,11 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "技术/手搓带蒙层的下拉选择框或手风琴.md"
+              },
+              "icon": "lucide-list",
+              "title": "手搓带蒙层的下拉选择框或手风琴 的大纲"
             }
           }
         ]

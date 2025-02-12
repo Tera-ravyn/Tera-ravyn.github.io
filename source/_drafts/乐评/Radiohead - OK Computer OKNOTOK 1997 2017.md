@@ -15,7 +15,7 @@ cover: https://i.discogs.com/ORDOcW8gyxAoTrX-dhu3X6BFrgvBaVinTRQmITK1ym8/rs:fit/
 发行于：
 2017 年 6 月 23 日
 
-纸质双开夹层包装，2CD，没有歌词本与赠品。黑胶版本为 3vinyl，封面与 CD 版本相同，背面写有：这次再版是为了纪念雷切尔·欧文博士（1968-2016），她在与癌症进行了长期而勇敢的斗争后去世。我们希望你没事，谢谢你的聆听。(“This re-issue is dedicated to the memory of Dr. Rachel Owen (1968-2016) who died after a long and brave battle with cancer. We hope you are OK. Thank you for listening.”)
+纸质双开夹层包装，2CD，没有歌词本与赠品。黑胶版本为 3vinyl，封面与 CD 版本相同，背面写有：这次再版是为了纪念雷切尔·欧文博士（1968-2016），她在与癌症进行了长期而勇敢的斗争后去世。我们希望你一切都好，谢谢你的聆听。(“This re-issue is dedicated to the memory of Dr. Rachel Owen (1968-2016) who died after a long and brave battle with cancer. We hope you are OK. Thank you for listening.”)
 
 至今没有找到封面烧毁一半的图从何而来。
 
