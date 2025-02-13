@@ -6,7 +6,7 @@ tags:
   - Mod制作
 date: 2025-02-10 14:55:10
 updated: 2025-02-10 14:55:10
-cover:
+cover: https://image.baidu.com/search/down?url=https://uddua-sky.lofter.com/post/1d0c0840_2bd2bbff2
 ---
 ## 前言
 
