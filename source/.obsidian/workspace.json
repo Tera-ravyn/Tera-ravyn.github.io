@@ -90,20 +90,6 @@
             }
           },
           {
-            "id": "a3badeb7110baf74",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/游戏/街霸6Mod制作入门1-解包与导出Mod.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "街霸6Mod制作入门1-解包与导出Mod"
-            }
-          },
-          {
             "id": "fc5ec540a5b09421",
             "type": "leaf",
             "state": {
@@ -151,7 +137,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "文件列表"
@@ -250,10 +237,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/游戏/街霸6Mod制作入门1-解包与导出Mod.md"
+                "file": "_drafts/游戏/街霸6Mod制作入门2-部件替换.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "街霸6Mod制作入门1-解包与导出Mod 的大纲"
+              "title": "街霸6Mod制作入门2-部件替换 的大纲"
             }
           }
         ],
@@ -273,11 +263,12 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "6e13b36c8c96fc62",
+  "active": "fc5ec540a5b09421",
   "lastOpenFiles": [
-    "_drafts/游戏/街霸6Mod制作入门2-部件替换.md",
-    "_posts/游戏/街霸6Mod制作入门1-解包与导出Mod.md",
     "_drafts/漫谈/我也在抵抗SNS.md",
+    "_posts/游戏/街霸6Mod制作入门1-解包与导出Mod.md",
+    "_drafts/游戏/街霸6Mod制作入门2-部件替换.md",
+    "_posts/技术/手搓带蒙层的下拉选择框或手风琴.md",
     "_drafts/游戏/街霸6泛用贴条笔记.md",
     "_drafts/技术/技术整理.md",
     "_drafts/游戏/桑吉尔夫从入门到Muscle.md",
@@ -287,7 +278,6 @@
     "_posts/乐评/Slipknot - Slipknot.md",
     "_drafts/技术/UE5 - 样条线绘制可动引导线.md",
     "_posts/技术/UE5 - pawn移动相关.md",
-    "_posts/技术/手搓带蒙层的下拉选择框或手风琴.md",
     "_drafts/漫谈",
     "_drafts/漫画随笔/千年万年苹果之子.md",
     "_drafts/漫画随笔/limbo king.md",

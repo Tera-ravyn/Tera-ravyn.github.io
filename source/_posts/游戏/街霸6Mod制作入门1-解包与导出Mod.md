@@ -16,21 +16,21 @@ cover:
 
 ### 1. RETool/MHRUnpack
 
-[下载 RETool]
-
-[下载 MHRUnpack]()
-
-[所有 Capcom 游戏的 list 文件](https://github.com/Ekey/REE.PAK.Tool)
-
-要获取游戏内的文件，我们首先需要对游戏进行解包。所谓包，就是游戏的 `.pak `文件，和游戏的可执行程序在同一文件夹下，可以通过在 steam 中右键要解包的游戏，点击 **属性-安装位置-浏览本机上的文件** 来直接打开这些游戏文件所在的文件夹。而RETool 和 MHRUnpack 都是用于从 `.pak` 包中解包出文件的程序。它们的区别在于，RETool 是全量解包，而 MHRUnpack 可以选择想要导出的文件，进行非全量解包。
+要获取游戏内的文件，我们首先需要对游戏进行解包。所谓包，就是游戏的 `.pak` 文件，和游戏的可执行程序在同一文件夹下，可以通过在 steam 中右键要解包的游戏，点击**属性-安装位置-浏览本机上的文件**来直接打开这些游戏文件所在的文件夹。而RETool 和 MHRUnpack 都是用于从 `.pak` 包中解包出文件的程序。它们的区别在于，RETool 是全量解包，而 MHRUnpack 可以选择想要导出的文件，进行非全量解包。
 
 个人更倾向于直接使用 MHRUnpack，虽说看名字就知道最初是为 MHR 制作的解包软件，不过它也适用于所有 RE Engine 开发的游戏。另外 MHRUnpack 由国人开发，内置中文使用指南。
 
-无论使用哪种方法解包，都需要对应的 .list 文件（.list 文件的名字需要和解包程序内的名字匹配，并且目录下有且只能有一个）。
+无论使用哪种方法解包，都需要对应的 `.list` 文件（`.list` 文件的名字需要和解包程序内的名字匹配，并且目录下有且只能有一个）。
 
-RETool 的使用方式：将 .list 文件放置在同一目录下，然后将 `.pak` 文件拖拽到 `extract-pak.bat` 批处理程序上，等待解压即可。使用 RETool 的时候必须按 pak 的 patch 更新顺序依次解压。
+RETool 的使用方式：将 `.list` 文件放置在同一目录下，然后将 `.pak` 文件拖拽到 `extract-pak.bat` 批处理程序上，等待解压即可。使用 RETool 的时候必须按 pak 的 patch 更新顺序依次解压。
 
-MHRUnpack 的使用方式：将 .list 文件更名为 `MHRisePC.list` ，放置在 `.exe` 可执行文件同一目录下，然后运行 MHRUnpack。等待 .list 文件自动导入完成，之后就可以选择要导出的文件并且导出。关于需要导出哪些文件，可以跳到文末的速查表进行查看。
+MHRUnpack 的使用方式：将 `.list` 文件更名为 `MHRisePC.list` ，放置在 `.exe` 可执行文件同一目录下，然后运行 MHRUnpack。等待 `.list ` 文件自动导入完成，之后就可以选择要导出的文件并且导出。关于需要导出哪些文件，可以跳到文末的速查表进行查看。
+
+[下载 RETool](https://fluffyquack.com/tools/REtool.zip)
+
+[下载 MHRUnpack](https://www.nexusmods.com/monsterhunterrise/mods/849)
+
+[所有 Capcom 游戏的 list 文件](https://github.com/Ekey/REE.PAK.Tool/tree/main/Projects)
 
 ### 2. Noesis 以及相关插件
 
@@ -46,9 +46,15 @@ Noesis 是一款可以查看各种模型格式文件以及对模型进行格式�
 
 ### 3. Blender 及其插件
 
-[直接在 Blender 内导入导出 RE Engine 的 mesh 和 mdf2 文件的插件](https://github.com/NSACloud/RE-Mesh-Editor)
+如果你更熟悉 3ds Max ，也可以用 3ds Max，配合 Noesis 使用导出的 fbx，并且在完成对 fbx 的编辑后再用 Noesis 转回 mesh 文件。如果 3ds Max 和 Blender 你都不知道是什么，那我推荐你直接用 Blender，因为它开源免费，而且插件也更好用。
+
+
+
+[在 Blender 内导入导出 RE Engine 的 mesh 和 mdf2 文件的插件](https://github.com/NSACloud/RE-Mesh-Editor)
 
 [在 Blender 的资产文件夹里直接浏览 RE Engine 文件的插件](https://github.com/NSACloud/RE-Asset-Library)
+
+[在 3ds Max 内导入 RE Engine 的 mesh 文件的插件](https://www.mediafire.com/file/jczyvcbtadoira6/RE_Engine_Mesh_v1.39b.ms.zip/file) 
 
 ## 二、导出 Mod
 
@@ -65,7 +71,7 @@ Noesis 是一款可以查看各种模型格式文件以及对模型进行格式�
 
 新建文本文档，以 `[属性]=[值]` 的格式记录关于 mod 的信息。编辑完成后把后缀名改成 `.ini` 即可。以下是一个配置文件样例：
 
-```
+``` modinfo.ini
 name=Luke C2 with Shirt
 version=1.0
 description=shirt Luke
@@ -174,3 +180,7 @@ patch_014：增加了特瑞的模型。更新了chain 文件。
 patch_015：更新了肯、玛丽莎、维加部分材质、颜色等。
 
 patch_017：增加了舞的模型。
+
+## References
+
+[Remy2Fang的 Mod 教学合集](https://www.tumblr.com/remy2fang/748342653516742656/street-fighter-6-modding-guide-and-tutorial)
