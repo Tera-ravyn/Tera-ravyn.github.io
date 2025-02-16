@@ -48,11 +48,11 @@ Noesis 是一款可以查看各种模型格式文件以及对模型进行格式�
 
 如果你更熟悉 3ds Max ，也可以用 3ds Max，配合 Noesis 使用导出的 fbx，并且在完成对 fbx 的编辑后再用 Noesis 转回 mesh 文件。如果 3ds Max 和 Blender 你都不知道是什么，那我推荐你直接用 Blender，因为它开源免费，而且插件也更好用。
 
-
+以下插件的安装方式是：
 
 [在 Blender 内导入导出 RE Engine 的 mesh 和 mdf2 文件的插件](https://github.com/NSACloud/RE-Mesh-Editor)
 
-[在 Blender 的资产文件夹里直接浏览 RE Engine 文件的插件](https://github.com/NSACloud/RE-Asset-Library)
+[在 Blender 的资产文件夹里直接浏览 RE Engine 文件的插件](https://github.com/NSACloud/RE-Asset-Library)（注：需要 Blender 版本在 4.3.2 及其以上）
 
 [在 3ds Max 内导入 RE Engine 的 mesh 文件的插件](https://www.mediafire.com/file/jczyvcbtadoira6/RE_Engine_Mesh_v1.39b.ms.zip/file) 
 
