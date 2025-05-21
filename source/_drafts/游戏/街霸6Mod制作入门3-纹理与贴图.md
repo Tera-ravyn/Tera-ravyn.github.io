@@ -34,9 +34,9 @@ albedo 贴图，也就是 diffuse 贴图，用于展示物体的固有色和材�
 
 ## 三、nrrc 贴图
 
-这个贴图实际的工作机制不是非常明确，在 Remy 的介绍中，它的蓝绿红通道分别对应了光泽度、凹凸、粗糙度，并且提到论坛内有人说蓝通道是 Cavity 贴图，但是实际视觉效果更像光泽度。
+这个贴图实际的工作机制不是非常明确，在 Remy 的介绍中，它的蓝绿红通道分别对应了光泽度、凹凸、粗糙度，并且提到论坛内有人说蓝通道是 Cavity 贴图（for cavity），但是实际视觉效果更像光泽度。
 
-但根据我个人的分析，这类贴图的名称大概是 Normal, Roughness, Cavity 的缩写，蓝通道+绿通道=法线贴图 Normal Maps，红通道记录粗糙度 Roughness，而 Alpha 通道记录凹陷度 Cavity。
+但我对以上说法持保留意见，据我个人分析，这类贴图的名称大概是 Normal, Roughness, Cavity 的缩写，Alpha 通道+绿通道记录法线贴图 Normal Maps，红通道记录粗糙度 Roughness，而蓝通道从视角效果是上记录凹陷度 Cavity，但是其实际是 AO 贴图。
 
 下文以巴什模型导入 blender 后，自动导入的身体材质节点为例，对 nrrc 贴图的使用进行分析。
 
@@ -73,26 +73,40 @@ $$
 &\\
 &则 \vec v'=\begin{bmatrix} x' \\ y' \\z'\end{bmatrix}=​​\begin{bmatrix} \cos\theta & -\sin\theta & 0\\ \sin\theta & \cos\theta &0\\0&0&1 \end{bmatrix}\begin{bmatrix} x \\ y \\z\end{bmatrix}=\begin{bmatrix} x\cdot\cos\theta-y\cdot\sin\theta\\x\cdot\sin\theta+y\cdot\cos\theta\\z\end{bmatrix}\\
 &\\
-&代入\theta=\frac{\pi}{4}，有\vec v'=\begin{bmatrix} \frac{\sqrt 2}{2}(x-y)\\\frac{\sqrt 2}{2}(x+y)\\z\end{bmatrix}\\
+&代入\theta=\frac{\pi}{4}，有\vec v'=\begin{bmatrix} \frac{\sqrt 2}{2}(x-y)\\\frac{\sqrt 2}{2}(x+y)\\z\end{bmatrix}=\cdots\\
 &\\
 &\\
-&规格化后获得\\
+&规格化后获得单位向量\vec e，即为该点的法线向量。\\
 \end{flalign}
 $$
 
-作为一张多通道贴图，它的绿通道存储了凹凸信息（虽然名字是 Normal，可以视作高度图），红通道存储了粗糙度信息，蓝通道存储了光泽度信息（也有说法是 for cavity，但根据 ）。Alpha 通道的信息具体不明，但是一定要有，自己处理时可以简单将其设置为全图 25% 透明度。
+从以上计算可以看出，贴图是通过绿通道和 Alpha 通道共同计算得到，并且总是固定进行 45° 的旋转。猜测是烘焙得到普通法线贴图后，将每个像素点的向量进行了归一化计算，这样只需要其中两个维度的向量即可通过计算得到第三个维度的值，从而只用双通道就还原三维向量。
 
-下面是卢克 c1 身体部分的 `esf002_001_01_body_nrrc` 贴图分离通道前后的效果。
+而蓝通道作为 AO 的输入，值越高 AO 的遮蔽效果越弱，因此出现强烈光泽度的原因其实是红通道提供的粗糙度不够，再加上较高的 AO 贴图值，于是出现了反光。
 
-![原图](IMG-20250521155026257.png)
+![](Pasted%20image%2020250521233435.png)
 
-![蓝+绿通道](IMG-20250521162243515.png)
+倒推以上计算，可以得出将普通法线贴图处理为 nrrc 贴图的工作流程：对法线贴图的像素点进行归一化、旋转、压缩。因为涉及到大量实际代数计算，这件事情靠单纯的制图是无法完成的，所以想偷懒的你也可以选择凹凸贴图直接放入绿通道和 alpha 通道，自己顺眼即可。
 
-![](IMG-20250521154946373.png)
+我自己写的 python 脚本如下，不额外讲如何使用了，想用可以拿去用。
 
-除了基础的 nrrc 贴图以外，通常还有
+最后附上关闭不同通道时游戏内实际的纹理效果，以便直观感受通道和材质的关系。
+
+![正常效果](Pasted%20image%2020250522001512.png)
+
+![单独关闭蓝通道的效果](Pasted%20image%2020250522000513.png)
+
+![单独关闭红通道的效果](Pasted%20image%2020250522001043.png)
+
+![单独关闭alpha通道的效果](Pasted%20image%2020250522000901.png)
+
+![单独关闭绿通道的效果](Pasted%20image%2020250522001409.png)
+
+![同时关闭绿通道和alpha通道的效果](Pasted%20image%2020250522000420.png)
 
 ## 四、cmask 贴图
+
+cmask 大概率为 Color Mask 的缩写，是用于染色的遮罩贴图。
 
 ## 五、
 
