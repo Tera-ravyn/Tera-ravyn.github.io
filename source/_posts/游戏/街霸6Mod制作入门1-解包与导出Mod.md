@@ -22,9 +22,9 @@ cover: https://image.baidu.com/search/down?url=https://imglf4.lf127.net/img/9d9f
 
 无论使用哪种方法解包，都需要对应的 `.list` 文件（`.list` 文件的名字需要和解包程序内的名字匹配，并且目录下有且只能有一个）。
 
-RETool 的使用方式：将 `.list` 文件放置在同一目录下，然后将 `.pak` 文件拖拽到 `extract-pak.bat` 批处理程序上，等待解压即可。使用 RETool 的时候必须按 pak 的 patch 更新顺序依次解压。
+**RETool 的使用方式**：将 `.list` 文件放置在同一目录下，然后将 `.pak` 文件拖拽到 `extract-pak.bat` 批处理程序上，等待解压即可。使用 RETool 的时候必须按 pak 的 patch 更新顺序依次解压。
 
-MHRUnpack 的使用方式：将 `.list` 文件更名为 `MHRisePC.list` ，放置在 `.exe` 可执行文件同一目录下，然后运行 MHRUnpack。等待 `.list ` 文件自动导入完成，之后就可以选择要导出的文件并且导出。关于需要导出哪些文件，可以跳到文末的速查表进行查看。
+**MHRUnpack 的使用方式**：将 `.list` 文件更名为 `MHRisePC.list` ，放置在 `.exe` 可执行文件同一目录下，然后运行 MHRUnpack。等待 `.list ` 文件自动导入完成，之后就可以选择要导出的文件并且导出。关于需要导出哪些文件，可以跳到文末的速查表进行查看。
 
 [下载 RETool](https://fluffyquack.com/tools/REtool.zip)
 
@@ -36,9 +36,21 @@ MHRUnpack 的使用方式：将 `.list` 文件更名为 `MHRisePC.list` ，放�
 
 Noesis 是一款可以查看各种模型格式文件以及对模型进行格式转换、导入导出的工具。
 
-配合插件，它可以把 RE Engine 的专有格式如 `.mesh.230110883` 以及 `.mdf2.31` 转换到 `.fbx` 格式，以便导入其他建模工具。不过，如果使用 blender 进行编辑操作，它不是非常必要，可以直接跳到 [3. Blender 及其插件](### 3. Blender 及其插件) 。
+配合插件，它可以把 RE Engine 的专有格式转换为软件通用格式，以便导入其他工具中。目前 Blender 另外有作者做了全套适配 RE 引擎开发的插件，但考虑到该插件仅支持将贴图转换为 `dds` 格式，且不能在 Blender 外对图像进行操作，较为不便，还是推荐需要制作纹理的 Blender 用户也安装 Noesis。
 
-插件的安装方式：安装 Noesis 之后，打开 `[Noesis 安装路径]/plugins/python` 文件夹并将  `fmt_RE_MESH.py` 放入其中，然后重新启动该程序。安装插件后，使用 Noesis 打开网格或 `tex` 文件将自动加载它。
+**插件的安装方式**：安装 Noesis 之后，打开 `[Noesis 安装路径]/plugins/python` 文件夹并将  `fmt_RE_MESH.py` 放入其中，然后重新启动该程序。安装插件后，使用 Noesis 打开网格或 `tex` 文件将自动加载它。
+
+插件另外还支持：预览 SCN 场景文件，同时加载多个网格体进行预览，预览模型时载入动画等功能，具体可以看插件的 readme 文本了解。
+
+导出单个文件时，可以单击左上角 `file` - `export` 导出当前在预览的文件，或右键要导出的文件，选择 `export` 导出。
+
+![](IMG-20250521143825054.png)
+
+![](IMG-20250521143808350.png)
+
+需要批量导出时，单击 `tools` ‣ `batch process` 进行批量导出，填入输入的文件格式和输出的文件格式，点击 `folder batch` 选择要进行批量处理的文件夹，如果希望处理文件夹内的所有子文件夹，则勾选 `recursive` 递归处理。另外，建议将输出路径改为 `$inpath$\$inname$.$outext$` ，否则默认每个文件都会建立一个单独的文件夹，不便后续操作。
+
+![](IMG-20250521143929292.png)
 
 [Noesis 下载](https://richwhitehouse.com/index.php?content=inc_projects.php&showproject=91)
 
@@ -46,13 +58,25 @@ Noesis 是一款可以查看各种模型格式文件以及对模型进行格式�
 
 ### 3. Blender 及其插件
 
-如果你更熟悉 3ds Max ，也可以用 3ds Max，配合 Noesis 使用导出的 fbx，并且在完成对 fbx 的编辑后再用 Noesis 转回 mesh 文件。如果 3ds Max 和 Blender 你都不知道是什么，那我推荐你直接用 Blender，因为它开源免费，而且插件也更好用。
+如果你更熟悉 3ds Max ，也可以用 3ds Max，配合 Noesis 使用导出的 fbx，并且在完成对 fbx 的编辑后再用 Noesis 转回 mesh 文件。如果 3ds Max 和 Blender 你都不知道是什么，那我推荐你直接用 Blender，因为它开源免费，而且 [NSACloud](https://github.com/NSACloud/RE-Chain-Editor/commits?author=NSACloud) 为 Blender 写了一系列的插件，可以在 Blender 内实现完整的工作流。
 
-以下插件的安装方式是：
+后文所附的插件的使用方法在 Github 仓库页面都有详细的文档，这里主要讲一下强烈建议安装的 RE Mesh Editor，其他插件可自己了解然后酌情选用。
 
-[在 Blender 内导入导出 RE Engine 的 mesh 和 mdf2 文件的插件](https://github.com/NSACloud/RE-Mesh-Editor)
+在仓库主页面的文档顶部，作者已经提供了一个下载链接，点击即可下载。
 
-[在 Blender 的资产文件夹里直接浏览 RE Engine 文件的插件](https://github.com/NSACloud/RE-Asset-Library)（注：需要 Blender 版本在 4.3.2 及其以上）
+![](IMG-20250521145158054.png)
+
+下载完成后，在 Blender 中，转到 `Edit` ‣ `Preferences` ‣ `Addons`（`编辑` ‣ `偏好设置` ‣ `插件`），然后在右上角点击安装按钮。如果使用的是 Blender 4.2 或更高版本，点击插件菜单右上角的箭头以找到安装按钮。找到下载到的 zip 文件，并点击“安装插件”，就可以使用插件了。
+
+![](IMG-20250521145802510.png)
+
+[RE Mesh Editor：在 Blender 内导入导出 RE Engine 的 mesh 和 mdf2 文件的插件](https://github.com/NSACloud/RE-Mesh-Editor)
+
+[RE Chain Editor：在 Blender 里编辑 chain 的插件](https://github.com/NSACloud/RE-Asset-Library)
+
+[RE Toolbox：Blender 的 RE Engine 相关操作箱（支持批量导出）](https://github.com/NSACloud/RE-Asset-Library)
+
+[RE Asset Library：在 Blender 里提取 RE Engine 文件并直接浏览的插件](https://github.com/NSACloud/RE-Asset-Library)（注：需要 Blender 版本在 4.3.2 及其以上）
 
 [在 3ds Max 内导入 RE Engine 的 mesh 文件的插件](https://www.mediafire.com/file/jczyvcbtadoira6/RE_Engine_Mesh_v1.39b.ms.zip/file) 
 
@@ -62,7 +86,7 @@ Noesis 是一款可以查看各种模型格式文件以及对模型进行格式�
 
 ### 1. Mod 本体文件
 
-用于替换的 mod 文件需要以原文件所在路径以及相同的名字去覆盖。
+用于替换的 mod 文件需要以原文件所在路径以及相同的名字去覆盖。除此以外，纹理文件需要同时替换掉 `product` 路径下的文件和 `streaming` 路径下的文件。
 
 > 例如：修改卢克皮肤 2 身体部分的模型，需要按照以下路径创建文件夹并命名文件：
 > natives/stm/product/model/esf/esf002/002/01/esf002_002_01.mesh.230110883

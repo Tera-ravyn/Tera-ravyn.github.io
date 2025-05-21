@@ -90,6 +90,20 @@
               "icon": "lucide-file",
               "title": "街霸6Mod制作入门3-纹理与贴图"
             }
+          },
+          {
+            "id": "ccf83b17fea6d7cd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_drafts/游戏/街霸6Mod制作入门4-Mod的调试.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "街霸6Mod制作入门4-Mod的调试"
+            }
           }
         ],
         "currentTab": 5
@@ -145,8 +159,7 @@
               "title": "书签"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -240,33 +253,36 @@
   },
   "active": "4ff785cab826dfe5",
   "lastOpenFiles": [
-    "_drafts/游戏/街霸6Mod制作入门3-纹理与贴图/IMG-20250520175109001.png",
-    "_drafts/游戏/街霸6Mod制作入门3-纹理与贴图/IMG-20250520171823903.png",
+    "_drafts/游戏/街霸6Mod制作入门3-纹理与贴图/IMG-20250521164537530.png",
+    "_drafts/游戏/街霸6Mod制作入门3-纹理与贴图/IMG-20250521163831013.png",
+    "_drafts/游戏/街霸6Mod制作入门3-纹理与贴图/IMG-20250521163307983.png",
+    "_drafts/游戏/街霸6Mod制作入门3-纹理与贴图/IMG-20250521163234592.png",
+    "_drafts/游戏/街霸6Mod制作入门3-纹理与贴图/IMG-20250521162243515.png",
+    "_posts/同人/初恋幻觉.md",
+    "_drafts/游戏/街霸6Mod制作入门3-纹理与贴图.md",
+    "_drafts/游戏/街霸6Mod制作入门3-纹理与贴图/IMG-20250521155026257.png",
+    "_drafts/游戏/街霸6Mod制作入门3-纹理与贴图/IMG-20250521154959011.png",
+    "_drafts/游戏/街霸6Mod制作入门3-纹理与贴图/IMG-20250521154946373.png",
+    "_drafts/游戏/街霸6Mod制作入门3-纹理与贴图/IMG-20250521154935072.png",
+    "_drafts/游戏/街霸6Mod制作入门3-纹理与贴图/IMG-20250521153433487.png",
+    "_drafts/游戏/街霸6Mod制作入门3-纹理与贴图/IMG-20250521151130261.png",
+    "_posts/游戏/街霸6Mod制作入门1-解包与导出Mod.md",
+    "_drafts/游戏/街霸6Mod制作入门4-Mod的调试.md",
+    "_posts/游戏/街霸6Mod制作入门2-部件替换.md",
+    "_posts/游戏/街霸6Mod制作入门1-解包与导出Mod",
     "_drafts/游戏/街霸6Mod制作入门3-纹理与贴图",
-    "_drafts/游戏/街霸6Mod制作入门3-纹理与贴图/IMG-20250520171739998.png",
     "_posts/技术/UE5 - pawn移动相关.md",
     "_drafts/漫谈/我也在抵抗SNS.md",
-    "_drafts/游戏/街霸6Mod制作入门3-纹理与贴图.md",
-    "_posts/游戏/街霸6Mod制作入门2-部件替换.md",
-    "_posts/游戏/街霸6Mod制作入门1-解包与导出Mod.md",
     "_drafts/游戏/街霸6泛用贴条笔记.md",
     "_drafts/技术/技术整理.md",
     "_posts/技术/手搓带蒙层的下拉选择框或手风琴.md",
     "_drafts/游戏/街霸6Mod制作入门番外-原模型的拆分与补充.md",
-    "_drafts/游戏/街霸6Mod制作入门番外-原模型的拆分与补充/IMG-20250519154950485.png",
-    "_drafts/游戏/街霸6Mod制作入门番外-原模型的拆分与补充/IMG-20250519154749444.png",
-    "_drafts/游戏/街霸6Mod制作入门番外-原模型的拆分与补充/IMG-20250519150923032.png",
-    "_drafts/游戏/街霸6Mod制作入门番外-原模型的拆分与补充/IMG-20250519150600994.png",
     "_drafts/游戏/街霸6Mod制作入门番外-原模型的拆分与补充",
-    "_drafts/游戏/街霸6Mod制作入门番外-原模型的拆分与补充/IMG-20250519145159426.png",
     "_drafts/未命名.md",
-    "_drafts/游戏/街霸6泛用贴条笔记/IMG-20240726172543800.png",
     "_drafts/乐评/Radiohead - OK Computer OKNOTOK 1997 2017.md",
     "_drafts/漫画随笔/千年万年苹果之子.md",
     "_posts/同人/使其融化.md",
     "_posts/同人/泳夏.md",
-    "_posts/同人/泳夏/IMG-20240715162153538.jpg",
-    "_posts/同人/初恋幻觉.md",
     "_drafts/游戏/桑吉尔夫从入门到Muscle.md",
     "_drafts/乐评/脏手指 - 我怎么学的这么坏.md",
     "_drafts/css.md",
@@ -277,14 +293,11 @@
     "_drafts/漫画随笔/limbo king.md",
     "_drafts/漫画随笔/约定的梦幻岛.md",
     "_drafts/漫画随笔/死役所.md",
-    "_drafts/漫画随笔/极道鲜师.md",
     "_drafts/游戏/桑吉尔夫从入门到Muscle",
-    "_drafts/游戏/桑吉尔夫从入门到Muscle/IMG-20240809160431001.jpg",
     "_drafts/游戏/街霸6泛用贴条笔记",
     "_posts/同人/使其融化",
     "_posts/同人/Instant Date",
     "_posts/同人/泳夏",
-    "_posts/同人",
-    "_drafts/游戏"
+    "_posts/同人"
   ]
 }
