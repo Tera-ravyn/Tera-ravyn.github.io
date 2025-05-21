@@ -108,5 +108,13 @@
     }
   ],
   "easy-typing-obsidian:easy-typing-format-switch": [],
-  "easy-typing-obsidian:easy-typing-insert-codeblock": []
+  "easy-typing-obsidian:easy-typing-insert-codeblock": [],
+  "obsidian-git:pull": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "P"
+    }
+  ]
 }
