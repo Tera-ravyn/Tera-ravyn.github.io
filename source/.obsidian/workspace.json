@@ -8,45 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "0ae50f3cb470ad18",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/游戏/街霸6Mod制作入门1-解包与导出Mod.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "街霸6Mod制作入门1-解包与导出Mod"
-            }
-          },
-          {
-            "id": "b57fa6cc6316ce27",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_drafts/技术/技术整理.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "技术整理"
-            }
-          },
-          {
             "id": "d762085cbc2f04ff",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_drafts/漫谈/我也在抵抗SNS.md",
+                "file": "_posts/技术/UE5 - pawn移动相关.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "我也在抵抗SNS"
+              "title": "UE5 - pawn移动相关"
             }
           },
           {
@@ -69,6 +41,48 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "_posts/游戏/街霸6Mod制作入门1-解包与导出Mod.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "街霸6Mod制作入门1-解包与导出Mod"
+            }
+          },
+          {
+            "id": "ae1f997615a0d619",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_drafts/游戏/街霸6泛用贴条笔记.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "街霸6泛用贴条笔记"
+            }
+          },
+          {
+            "id": "b12b618880feefdb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/游戏/街霸6Mod制作入门2-部件替换.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "街霸6Mod制作入门2-部件替换"
+            }
+          },
+          {
+            "id": "4ff785cab826dfe5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "_drafts/游戏/街霸6Mod制作入门3-纹理与贴图.md",
                 "mode": "source",
                 "source": false
@@ -76,9 +90,23 @@
               "icon": "lucide-file",
               "title": "街霸6Mod制作入门3-纹理与贴图"
             }
+          },
+          {
+            "id": "ccf83b17fea6d7cd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_drafts/游戏/街霸6Mod制作入门4-Mod的调试.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "街霸6Mod制作入门4-Mod的调试"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -110,7 +138,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "(#",
+                "query": "/<",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -223,48 +251,47 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "604e8833b45c79e9",
+  "active": "4ff785cab826dfe5",
   "lastOpenFiles": [
-    "Pasted image 20250522001512.png",
-    "Pasted image 20250522001409.png",
-    "Pasted image 20250522001043.png",
-    "Pasted image 20250522000901.png",
-    "Pasted image 20250522000513.png",
-    "Pasted image 20250522000420.png",
-    "}WH_7AP1[LQ))YIH43[IV3T 5.png",
-    "}WH_7AP1[LQ))YIH43[IV3T 4.png",
-    "}WH_7AP1[LQ))YIH43[IV3T 3.png",
-    "}WH_7AP1[LQ))YIH43[IV3T 2.png",
-    "}WH_7AP1[LQ))YIH43[IV3T 1.png",
-    "_posts/游戏/街霸6Mod制作入门1-解包与导出Mod.md",
-    "_drafts/游戏/街霸6泛用贴条笔记.md",
-    "_drafts/游戏/街霸6Mod制作入门3-纹理与贴图.md",
-    "_drafts/游戏/街霸6Mod制作入门4-Mod的调试.md",
-    "_drafts/游戏/桑吉尔夫从入门到Muscle.md",
-    "_drafts/css.md",
-    "_drafts/hello-world.md",
-    "_drafts/RVO6.md",
-    "conflict-files-obsidian-git.md",
-    "_posts/游戏/街霸6Mod制作入门1-解包与导出Mod",
-    "_drafts/游戏/街霸6Mod制作入门番外-原模型的拆分与补充",
-    "_drafts/游戏/街霸6Mod制作入门番外-原模型的拆分与补充.md",
-    "_drafts/游戏/街霸6Mod制作入门3-纹理与贴图",
+    "_drafts/游戏/街霸6Mod制作入门3-纹理与贴图/IMG-20250522001409000.png",
     "_posts/游戏/街霸6Mod制作入门2-部件替换.md",
+    "_drafts/游戏/街霸6Mod制作入门3-纹理与贴图/IMG-20250522001043000.png",
+    "_drafts/游戏/街霸6Mod制作入门3-纹理与贴图/IMG-20250522000901000.png",
+    "_drafts/游戏/街霸6Mod制作入门3-纹理与贴图/IMG-20250522000513000.png",
+    "_drafts/游戏/街霸6Mod制作入门3-纹理与贴图/IMG-20250522001512000.png",
+    "_drafts/游戏/街霸6Mod制作入门3-纹理与贴图/IMG-20250522084323133.png",
+    "_drafts/游戏/街霸6Mod制作入门3-纹理与贴图/IMG-20250522000420000.png",
+    "_drafts/游戏/街霸6Mod制作入门3-纹理与贴图/IMG-20250521164537530.png",
+    "_drafts/游戏/街霸6Mod制作入门3-纹理与贴图/IMG-20250520171739998.png",
+    "_drafts/游戏/街霸6Mod制作入门3-纹理与贴图/IMG-20250521163234592.png",
+    "_drafts/游戏/街霸6Mod制作入门3-纹理与贴图.md",
+    "_drafts/游戏/街霸6泛用贴条笔记.md",
+    "_posts/同人/初恋幻觉.md",
+    "_posts/游戏/街霸6Mod制作入门1-解包与导出Mod.md",
+    "_drafts/游戏/街霸6Mod制作入门4-Mod的调试.md",
+    "_posts/游戏/街霸6Mod制作入门1-解包与导出Mod",
+    "_drafts/游戏/街霸6Mod制作入门3-纹理与贴图",
+    "_posts/技术/UE5 - pawn移动相关.md",
+    "_drafts/漫谈/我也在抵抗SNS.md",
+    "_drafts/技术/技术整理.md",
     "_posts/技术/手搓带蒙层的下拉选择框或手风琴.md",
+    "_drafts/游戏/街霸6Mod制作入门番外-原模型的拆分与补充.md",
+    "_drafts/游戏/街霸6Mod制作入门番外-原模型的拆分与补充",
+    "_drafts/未命名.md",
     "_drafts/乐评/Radiohead - OK Computer OKNOTOK 1997 2017.md",
     "_drafts/漫画随笔/千年万年苹果之子.md",
-    "_drafts/技术/技术整理.md",
-    "_drafts/漫谈/我也在抵抗SNS.md",
     "_posts/同人/使其融化.md",
     "_posts/同人/泳夏.md",
-    "_posts/同人/初恋幻觉.md",
+    "_drafts/游戏/桑吉尔夫从入门到Muscle.md",
     "_drafts/乐评/脏手指 - 我怎么学的这么坏.md",
+    "_drafts/css.md",
     "_drafts/乐评/Slipknot - .5 The Gray Chapter.md",
     "_posts/乐评/Slipknot - Slipknot.md",
     "_drafts/技术/UE5 - 样条线绘制可动引导线.md",
-    "_posts/技术/UE5 - pawn移动相关.md",
     "_drafts/漫谈",
     "_drafts/漫画随笔/limbo king.md",
+    "_drafts/漫画随笔/约定的梦幻岛.md",
+    "_drafts/漫画随笔/死役所.md",
     "_drafts/游戏/桑吉尔夫从入门到Muscle",
     "_drafts/游戏/街霸6泛用贴条笔记",
     "_posts/同人/使其融化",
