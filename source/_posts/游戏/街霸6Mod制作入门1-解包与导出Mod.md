@@ -12,6 +12,10 @@ cover: https://image.baidu.com/search/down?url=https://imglf4.lf127.net/img/9d9f
 
 这系列文章并不是很正式的教程，而更接近于一个备忘。主要内容都参考自 Remy2Fang 的 Mod 制作导论。下文很多插件给出的下载链接是 github 仓库地址，如果打不开请自行使用 steam++ 等手段加速；要在仓库页面下载发行包，找到页面右侧的 `releases`，点击进行下载。
 
+---
+
+2025/06/05 版本更新：Capcom 更新了用于街霸 6 的纹理材质后缀，现在由 `143230113` 变为 `241101895`，文件本身内容未变，可以通过直接修改后缀更改。
+
 ## 一、准备工具
 
 ### 1. RETool/MHRUnpack
@@ -117,7 +121,7 @@ Mod 文件夹完成后，可以按照需求打包成 `.rar` 文件。一般正�
 
 ### 角色模型
 
-路径： `natives/stm/product/model/efs `
+路径： `natives/stm/product/model/esf `
 
 **Charcters**
 esf001 - Ryu
@@ -145,6 +149,7 @@ esf022 - Gouki (Akuma)
 esf026 - Vega (Bison)
 esf027 - Terry
 esf028 - Mai
+esf029 - Elena
 
 
 ### NPC 模型
@@ -182,6 +187,12 @@ wpl100 (male) & wpl200 (female) = Avatar Head, skin textures, chain files, etc.
 除了模型同一目录下所携带的内容，还可以在 `natives/stm/streaming/product/model` 下找到分辨率更高的相同材质。
 
 ### 不同 patch 的 pak 包所含的内容
+
+2025/06/05 更新：
+
+1+2 做了一个全量更新，现在再次只有一个游戏包了。从里面可以解包出前两年所有的游戏内容，以及意外泄露的蛛俐皮肤 4。
+
+---
 
 patch_001：增加了拉希德的模型。
 

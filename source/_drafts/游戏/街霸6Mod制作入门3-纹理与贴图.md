@@ -112,7 +112,7 @@ cmask 大概率为 Color Mask 的缩写，是用于染色的遮罩贴图。
 
 ## 五、atos 贴图
 
-推测为 Alpha, Translucent, Occlusion, SSS 缩写。
+推测为 Alpha, Translucent, Occlusion, SSS 缩写。atos 贴图实际的效果很不明显，确定的是红通道可以用于实现透明材质，但需要同时更改 MDF2 文件，在 Alpha_Flag_Preset 枚举中将 Alpha_Flag 设置为 Double_Sided_With_Transparency。
 
 但是根据 REME，街霸 6 的蓝通道并不用于 AO 贴图，
 
