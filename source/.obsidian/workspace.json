@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_drafts/技术/提取街霸模型后的其他应用.md",
+                "file": "_drafts/技术/不会建模也可以当缝合怪自己爽爽.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "提取街霸模型后的其他应用"
+              "title": "不会建模也可以当缝合怪自己爽爽"
             }
           },
           {
@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/技术/UE解决有模块需要重新编译问题.md",
+                "file": "_drafts/技术/不会建模也可以当缝合怪自己爽爽.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "UE解决有模块需要重新编译问题"
+              "title": "不会建模也可以当缝合怪自己爽爽"
             }
           },
           {
@@ -237,13 +237,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/技术/UE解决有模块需要重新编译问题.md",
+                "file": "_drafts/技术/不会建模也可以当缝合怪自己爽爽.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "UE解决有模块需要重新编译问题 的大纲"
+              "title": "不会建模也可以当缝合怪自己爽爽 的大纲"
             }
           }
         ],
@@ -263,16 +263,28 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "6e13b36c8c96fc62",
+  "active": "d606e2062e1a9730",
   "lastOpenFiles": [
-    "_drafts/技术/提取街霸模型后的其他应用.md",
+    "_drafts/技术/不会建模也可以当缝合怪自己爽爽/IMG-20250620165422623.png",
+    "_drafts/技术/不会建模也可以当缝合怪自己爽爽",
+    "_drafts/技术/技术整理.md",
+    "_drafts/技术/antd-mobile的tab、swiper与滚动长度.md",
+    "_drafts/技术/Nextjs中关于SSR的应用.md",
+    "_drafts/技术/turf.js绘制矢量箭头.md",
+    "_drafts/技术/UE5 - 样条线绘制可动引导线.md",
+    "_drafts/技术/UE5-简单朴素的水体呈现.md",
+    "_drafts/技术/手搓左右横跳的TabBar Indicator.md",
+    "_drafts/街霸/搓招小技巧.md",
+    "_drafts/游戏/就算失去了无敌的下中拳你也是我最喜欢的教官.md",
+    "_posts/技术/UE5 - pawn移动相关.md",
     "_posts/技术/UE解决有模块需要重新编译问题.md",
-    "_drafts/技术/提取街霸模型后的其他应用/IMG-20250617154408120.png",
-    "_drafts/技术/提取街霸模型后的其他应用/IMG-20250617153732680.png",
-    "_drafts/技术/提取街霸模型后的其他应用/IMG-20250617150601329.png",
+    "_drafts/技术/不会建模也可以当缝合怪自己爽爽.md",
+    "_drafts/技术/不会建模也可以当缝合怪自己爽爽/IMG-20250620135334459.png",
+    "_drafts/技术/不会建模也可以当缝合怪自己爽爽/IMG-20250620135334429.png",
+    "_drafts/技术/不会建模也可以当缝合怪自己爽爽/IMG-20250620135334402.png",
     "_drafts/技术/提取街霸模型后的其他应用/IMG-20250617150223849.png",
     "_drafts/技术/提取街霸模型后的其他应用",
-    "_drafts/技术/提取街霸模型后的其他应用/IMG-20250617144923162.png",
+    "_drafts/技术/不会建模也可以当缝合怪自己爽爽/IMG-20250620135334344.png",
     "_posts/游戏/街霸6Mod制作入门1-解包与导出Mod.md",
     "_drafts/游戏/街霸6Mod制作入门番外-原模型的拆分与补充.md",
     "_drafts/游戏/街霸6Mod制作入门番外-原模型的拆分与补充/IMG-20250526132204381.png",
@@ -287,29 +299,17 @@
     "_posts/同人/初恋幻觉.md",
     "_posts/游戏/街霸6Mod制作入门1-解包与导出Mod",
     "_drafts/游戏/街霸6Mod制作入门3-纹理与贴图",
-    "_posts/技术/UE5 - pawn移动相关.md",
     "_drafts/漫谈/我也在抵抗SNS.md",
-    "_drafts/技术/技术整理.md",
     "_posts/技术/手搓带蒙层的下拉选择框或手风琴.md",
     "_drafts/游戏/街霸6Mod制作入门番外-原模型的拆分与补充",
     "_drafts/未命名.md",
     "_drafts/乐评/Radiohead - OK Computer OKNOTOK 1997 2017.md",
     "_drafts/漫画随笔/千年万年苹果之子.md",
     "_posts/同人/使其融化.md",
-    "_posts/同人/泳夏.md",
-    "_drafts/游戏/桑吉尔夫从入门到Muscle.md",
-    "_drafts/乐评/脏手指 - 我怎么学的这么坏.md",
-    "_drafts/css.md",
-    "_drafts/乐评/Slipknot - .5 The Gray Chapter.md",
-    "_posts/乐评/Slipknot - Slipknot.md",
-    "_drafts/技术/UE5 - 样条线绘制可动引导线.md",
     "_drafts/漫谈",
-    "_drafts/漫画随笔/limbo king.md",
-    "_drafts/漫画随笔/约定的梦幻岛.md",
     "_drafts/游戏/桑吉尔夫从入门到Muscle",
     "_drafts/游戏/街霸6泛用贴条笔记",
     "_posts/同人/使其融化",
-    "_posts/同人/Instant Date",
-    "_posts/同人/泳夏"
+    "_posts/同人/Instant Date"
   ]
 }
