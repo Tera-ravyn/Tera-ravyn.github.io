@@ -67,14 +67,12 @@
             "id": "d606e2062e1a9730",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "_drafts/技术/不会建模也可以当缝合怪自己爽爽.md",
-                "mode": "source",
-                "source": false
+                "file": "_drafts/技术/不会建模也可以当缝合怪自己爽爽/IMG-20250617150223849.png"
               },
-              "icon": "lucide-file",
-              "title": "不会建模也可以当缝合怪自己爽爽"
+              "icon": "lucide-image",
+              "title": "IMG-20250617150223849"
             }
           },
           {
@@ -237,13 +235,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_drafts/技术/不会建模也可以当缝合怪自己爽爽.md",
+                "file": "_drafts/技术/不会建模也可以当缝合怪自己爽爽/IMG-20250617150223849.png",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "不会建模也可以当缝合怪自己爽爽 的大纲"
+              "title": "IMG-20250617150223849 的大纲"
             }
           }
         ],
@@ -263,8 +261,9 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "d606e2062e1a9730",
+  "active": "6e13b36c8c96fc62",
   "lastOpenFiles": [
+    "_drafts/技术/不会建模也可以当缝合怪自己爽爽.md",
     "_drafts/技术/不会建模也可以当缝合怪自己爽爽/IMG-20250620165422623.png",
     "_drafts/技术/不会建模也可以当缝合怪自己爽爽",
     "_drafts/技术/技术整理.md",
@@ -278,11 +277,10 @@
     "_drafts/游戏/就算失去了无敌的下中拳你也是我最喜欢的教官.md",
     "_posts/技术/UE5 - pawn移动相关.md",
     "_posts/技术/UE解决有模块需要重新编译问题.md",
-    "_drafts/技术/不会建模也可以当缝合怪自己爽爽.md",
     "_drafts/技术/不会建模也可以当缝合怪自己爽爽/IMG-20250620135334459.png",
     "_drafts/技术/不会建模也可以当缝合怪自己爽爽/IMG-20250620135334429.png",
     "_drafts/技术/不会建模也可以当缝合怪自己爽爽/IMG-20250620135334402.png",
-    "_drafts/技术/提取街霸模型后的其他应用/IMG-20250617150223849.png",
+    "_drafts/技术/不会建模也可以当缝合怪自己爽爽/IMG-20250617150223849.png",
     "_drafts/技术/提取街霸模型后的其他应用",
     "_drafts/技术/不会建模也可以当缝合怪自己爽爽/IMG-20250620135334344.png",
     "_posts/游戏/街霸6Mod制作入门1-解包与导出Mod.md",
@@ -295,7 +293,6 @@
     "_drafts/游戏/街霸6Mod制作入门3-纹理与贴图.md",
     "_drafts/游戏/街霸6Mod制作入门4-Mod的调试.md",
     "_drafts/游戏/街霸6泛用贴条笔记.md",
-    "_drafts/游戏/街霸6Mod制作入门3-纹理与贴图/IMG-20250523145702281.png",
     "_posts/同人/初恋幻觉.md",
     "_posts/游戏/街霸6Mod制作入门1-解包与导出Mod",
     "_drafts/游戏/街霸6Mod制作入门3-纹理与贴图",
