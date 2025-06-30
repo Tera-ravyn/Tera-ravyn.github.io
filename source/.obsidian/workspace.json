@@ -8,17 +8,31 @@
         "type": "tabs",
         "children": [
           {
-            "id": "797e2f5ce205a200",
+            "id": "0ae50f3cb470ad18",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/技术/手搓带蒙层的下拉选择框或手风琴.md",
+                "file": "_posts/游戏/街霸6Mod制作入门1-解包与导出Mod.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "手搓带蒙层的下拉选择框或手风琴"
+              "title": "街霸6Mod制作入门1-解包与导出Mod"
+            }
+          },
+          {
+            "id": "b57fa6cc6316ce27",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_drafts/技术/技术整理.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "技术整理"
             }
           },
           {
@@ -36,21 +50,7 @@
             }
           },
           {
-            "id": "b12b618880feefdb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/游戏/街霸6Mod制作入门1-解包与导出Mod.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "街霸6Mod制作入门1-解包与导出Mod"
-            }
-          },
-          {
-            "id": "7cb6aa730237ada9",
+            "id": "f5f1608f560eceef",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -62,51 +62,9 @@
               "icon": "lucide-file",
               "title": "不会建模也可以当缝合怪自己爽爽"
             }
-          },
-          {
-            "id": "2ecc69b099e798da",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_drafts/技术/Mate Engine专用ME模型制作.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Mate Engine专用ME模型制作"
-            }
-          },
-          {
-            "id": "4ff785cab826dfe5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_drafts/游戏/街霸6Mod制作入门3-纹理与贴图.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "街霸6Mod制作入门3-纹理与贴图"
-            }
-          },
-          {
-            "id": "ccf83b17fea6d7cd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_drafts/游戏/街霸6Mod制作入门4-Mod的调试.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "街霸6Mod制作入门4-Mod的调试"
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -225,13 +183,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_drafts/技术/Mate Engine专用ME模型制作.md",
+                "file": "_drafts/技术/不会建模也可以当缝合怪自己爽爽.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Mate Engine专用ME模型制作 的大纲"
+              "title": "不会建模也可以当缝合怪自己爽爽 的大纲"
             }
           }
         ],
@@ -251,50 +209,48 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "2ecc69b099e798da",
+  "active": "f5f1608f560eceef",
   "lastOpenFiles": [
+    "Pasted image 20250621232503.png",
+    "Pasted image 20250621231850.png",
+    "Pasted image 20250621231734.png",
     "_drafts/技术/不会建模也可以当缝合怪自己爽爽.md",
-    "_drafts/技术/Mate Engine专用ME模型制作.md",
-    "_drafts/技术/不会建模也可以当缝合怪自己爽爽/IMG-20250617150223849.png",
-    "conflict-files-obsidian-git.md",
-    "_drafts/漫谈/笔涂模型入门.md",
-    "_drafts/游戏/街霸6Mod制作入门3-纹理与贴图/IMG-20250524193222780.png",
-    "_drafts/游戏/街霸6Mod制作入门3-纹理与贴图/IMG-20250524192839494.png",
-    "_drafts/游戏/街霸6Mod制作入门3-纹理与贴图/IMG-20250524192151771.png",
-    "_drafts/游戏/街霸6Mod制作入门3-纹理与贴图/IMG-20250524191705707.png",
-    "_drafts/游戏/街霸6Mod制作入门3-纹理与贴图/IMG-20250524191601106.png",
-    "_drafts/游戏/街霸6Mod制作入门3-纹理与贴图/IMG-20250524191510115.png",
-    "_drafts/游戏/街霸6Mod制作入门3-纹理与贴图/IMG-20250524191421454.png",
-    "_drafts/游戏/街霸6Mod制作入门3-纹理与贴图/IMG-20250524191316553.png",
-    "_drafts/游戏/街霸6Mod制作入门3-纹理与贴图/IMG-20250524191215067.png",
-    "_drafts/同人/主巴什基本设定.md",
-    "_drafts/同人",
-    "_drafts/技术/不会建模也可以当缝合怪自己爽爽",
-    "_drafts/技术/技术整理.md",
-    "_drafts/技术/antd-mobile的tab、swiper与滚动长度.md",
-    "_drafts/技术/Nextjs中关于SSR的应用.md",
-    "_drafts/技术/turf.js绘制矢量箭头.md",
-    "_drafts/技术/UE5 - 样条线绘制可动引导线.md",
-    "_drafts/技术/UE5-简单朴素的水体呈现.md",
-    "_drafts/技术/手搓左右横跳的TabBar Indicator.md",
-    "_drafts/街霸/搓招小技巧.md",
-    "_drafts/游戏/就算失去了无敌的下中拳你也是我最喜欢的教官.md",
-    "_posts/技术/UE5 - pawn移动相关.md",
-    "_posts/技术/UE解决有模块需要重新编译问题.md",
-    "_drafts/技术/提取街霸模型后的其他应用",
-    "_posts/游戏/街霸6Mod制作入门1-解包与导出Mod.md",
-    "_drafts/游戏/街霸6Mod制作入门番外-原模型的拆分与补充.md",
-    "_posts/游戏/街霸6Mod制作入门2-部件替换.md",
+    "_drafts/技术/不会建模也可以当缝合怪自己爽爽/IMG-20250621231445411.png",
+    "_drafts/技术/不会建模也可以当缝合怪自己爽爽/IMG-20250621231120763.png",
+    "_drafts/技术/不会建模也可以当缝合怪自己爽爽/Pasted image 20250621230839.png",
+    "_drafts/技术/不会建模也可以当缝合怪自己爽爽/IMG-20250621230924273.png",
+    "Pasted image 20250621230823.png",
+    "Pasted image 20250621230759.png",
+    "Pasted image 20250621230741.png",
+    "_drafts/游戏/冠军角色搬砖富二代你说我玩不玩.md",
     "_drafts/游戏/街霸6Mod制作入门3-纹理与贴图.md",
     "_drafts/游戏/街霸6Mod制作入门4-Mod的调试.md",
-    "_drafts/游戏/街霸6泛用贴条笔记.md",
-    "_posts/同人/初恋幻觉.md",
-    "_posts/游戏/街霸6Mod制作入门1-解包与导出Mod",
-    "_drafts/游戏/街霸6Mod制作入门3-纹理与贴图",
-    "_drafts/漫谈/我也在抵抗SNS.md",
+    "_posts/游戏/街霸6Mod制作入门2-部件替换.md",
+    "_posts/游戏/街霸6Mod制作入门1-解包与导出Mod.md",
+    "_drafts/漫谈/笔涂模型入门.md",
+    "_drafts/同人/主巴什基本设定.md",
+    "conflict-files-obsidian-git.md",
+    "_posts/技术/UE解决有模块需要重新编译问题.md",
+    "_drafts/技术/不会建模也可以当缝合怪自己爽爽",
+    "_drafts/同人",
     "_posts/技术/手搓带蒙层的下拉选择框或手风琴.md",
+    "_drafts/游戏/街霸6泛用贴条笔记.md",
+    "_drafts/游戏/桑吉尔夫从入门到Muscle.md",
+    "_drafts/css.md",
+    "_drafts/hello-world.md",
+    "_drafts/RVO6.md",
+    "_posts/游戏/街霸6Mod制作入门1-解包与导出Mod",
     "_drafts/游戏/街霸6Mod制作入门番外-原模型的拆分与补充",
-    "_drafts/未命名.md",
+    "_drafts/游戏/街霸6Mod制作入门番外-原模型的拆分与补充.md",
+    "_drafts/游戏/街霸6Mod制作入门3-纹理与贴图",
+    "_drafts/乐评/Radiohead - OK Computer OKNOTOK 1997 2017.md",
+    "_drafts/漫画随笔/千年万年苹果之子.md",
+    "_drafts/技术/技术整理.md",
+    "_drafts/漫谈/我也在抵抗SNS.md",
+    "_posts/同人/使其融化.md",
+    "_posts/同人/泳夏.md",
+    "_posts/同人/初恋幻觉.md",
+    "_drafts/乐评/脏手指 - 我怎么学的这么坏.md",
     "_drafts/漫谈",
     "_drafts/游戏/桑吉尔夫从入门到Muscle",
     "_drafts/游戏/街霸6泛用贴条笔记",

@@ -4,5 +4,6 @@
   "newFileFolderPath": "_drafts",
   "attachmentFolderPath": "/",
   "useMarkdownLinks": true,
-  "strictLineBreaks": true
+  "strictLineBreaks": true,
+  "promptDelete": false
 }
