@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_drafts/技术/Mate Engine专用ME模型制作.md",
+                "file": "_drafts/技术/Mate Engine模组制作.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Mate Engine专用ME模型制作"
+              "title": "Mate Engine模组制作"
             }
           }
         ],
@@ -68,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "/<",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -155,13 +155,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_drafts/技术/Mate Engine专用ME模型制作.md",
+                "file": "_drafts/技术/Mate Engine模组制作.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Mate Engine专用ME模型制作 的大纲"
+              "title": "Mate Engine模组制作 的大纲"
             }
           }
         ],
@@ -181,8 +181,13 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "b57fa6cc6316ce27",
+  "active": "6e13b36c8c96fc62",
   "lastOpenFiles": [
+    "_drafts/blender_output_textures.py",
+    "_drafts/技术/Mate Engine模组制作/IMG-20250702104314768.png",
+    "_drafts/技术/Mate Engine模组制作/IMG-20250702103628453.png",
+    "_drafts/技术/Mate Engine模组制作",
+    "_drafts/技术/Mate Engine模组制作/IMG-20250702103409246.png",
     "_posts/乐评/Slipknot - Slipknot.md",
     "_drafts/技术/不会建模也可以当缝合怪自己爽爽.md",
     "_drafts/技术/不会建模也可以当缝合怪自己爽爽/IMG-20250630145245501.png",
@@ -202,9 +207,6 @@
     "_drafts/技术/不会建模也可以当缝合怪自己爽爽/IMG-20250630133724753.png",
     "_drafts/技术/不会建模也可以当缝合怪自己爽爽/IMG-20250630110216781.png",
     "conflict-files-obsidian-git.md",
-    "_drafts/技术/不会建模也可以当缝合怪自己爽爽/IMG-20250621231445411.png",
-    "_drafts/技术/不会建模也可以当缝合怪自己爽爽/IMG-20250621231120763.png",
-    "_drafts/技术/不会建模也可以当缝合怪自己爽爽/Pasted image 20250621230839.png",
     "_drafts/游戏/冠军角色搬砖富二代你说我玩不玩.md",
     "_posts/游戏/街霸6Mod制作入门1-解包与导出Mod.md",
     "_drafts/漫谈/笔涂模型入门.md",
@@ -224,10 +226,8 @@
     "_drafts/漫画随笔/千年万年苹果之子.md",
     "_drafts/漫谈/我也在抵抗SNS.md",
     "_posts/同人/使其融化.md",
-    "_posts/同人/泳夏.md",
     "_drafts/漫谈",
     "_drafts/游戏/桑吉尔夫从入门到Muscle",
-    "_drafts/游戏/街霸6泛用贴条笔记",
-    "_posts/同人/使其融化"
+    "_drafts/游戏/街霸6泛用贴条笔记"
   ]
 }
