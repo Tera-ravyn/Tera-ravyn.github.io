@@ -1,7 +1,9 @@
 ---
 title: 街霸6Mod制作入门2-部件替换
 categories: 游戏
-tags: 
+tags:
+  - 街霸
+  - Mod制作
 date: 2025-02-12 16:15:28
 updated: 2025-02-12 16:15:28
 cover:
