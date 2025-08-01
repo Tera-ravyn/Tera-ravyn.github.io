@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_drafts/同人/鸦犬世界观整合.md",
+                "file": "_drafts/游戏/街霸6Mod制作入门5-音频相关.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "鸦犬世界观整合"
+              "title": "街霸6Mod制作入门5-音频相关"
             }
           },
           {
@@ -69,30 +69,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_drafts/游戏/街霸6Mod制作入门4-Mod的调试.md",
+                "file": "_posts/游戏/街霸6Mod制作入门1-解包与导出Mod.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "街霸6Mod制作入门4-Mod的调试"
-            }
-          },
-          {
-            "id": "56440a5451b45429",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/游戏/街霸6Mod制作入门2-部件替换.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "街霸6Mod制作入门2-部件替换"
+              "title": "街霸6Mod制作入门1-解包与导出Mod"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -211,13 +197,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/游戏/街霸6Mod制作入门2-部件替换.md",
+                "file": "_drafts/游戏/街霸6Mod制作入门5-音频相关.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "街霸6Mod制作入门2-部件替换 的大纲"
+              "title": "街霸6Mod制作入门5-音频相关 的大纲"
             }
           }
         ],
@@ -237,14 +223,15 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "56440a5451b45429",
+  "active": "2d8f7a7ad27b193b",
   "lastOpenFiles": [
     "_posts/游戏/街霸6Mod制作入门1-解包与导出Mod.md",
-    "_drafts/技术/手搓左右横跳的TabBar Indicator.md",
-    "_drafts/技术/手搓根据滚动条自动展开的顶部Info Card.md",
     "_drafts/游戏/街霸6Mod制作入门5-音频相关.md",
     "_drafts/游戏/街霸6Mod制作入门4-Mod的调试.md",
     "_drafts/同人/鸦犬世界观整合.md",
+    "_posts/游戏/街霸6Mod制作入门2-部件替换.md",
+    "_drafts/技术/手搓左右横跳的TabBar Indicator.md",
+    "_drafts/技术/手搓根据滚动条自动展开的顶部Info Card.md",
     "_drafts/同人/中西部恶魔.md",
     "_drafts/同人/主巴什基本设定.md",
     "Pasted image 20250711091200.png",
@@ -265,7 +252,6 @@
     "_drafts/游戏/就算失去了无敌的下中拳你也是我最喜欢的教官.md",
     "_drafts/游戏/街霸6Mod制作入门番外-原模型的拆分与补充.md",
     "_drafts/游戏/街霸6Mod制作入门3-纹理与贴图/IMG-20250521154935072.png",
-    "_posts/游戏/街霸6Mod制作入门2-部件替换.md",
     "_posts/游戏/街霸6Mod制作入门3-纹理与贴图.md",
     "_posts/游戏/街霸6Mod制作入门3-纹理与贴图",
     "_drafts/2025-06-17.md",

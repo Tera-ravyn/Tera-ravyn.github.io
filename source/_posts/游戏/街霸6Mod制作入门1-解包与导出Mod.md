@@ -5,7 +5,7 @@ tags:
   - 街霸
   - Mod制作
 date: 2025-02-10 14:55:10
-updated: 2025-05-21
+updated: 2025-08-01
 cover: https://image.baidu.com/search/down?url=https://imglf4.lf127.net/img/9d9fff3e7d72f203/SHRJMUQ3VE0yMkpNeTBROHplMmYwVVZHbkNKUWdnSHVUYkpOaHgwNXZ1cz0.png?imageView&thumbnail=1680x0&quality=96&stripmeta=0
 ---
 ## 前言
@@ -14,25 +14,31 @@ cover: https://image.baidu.com/search/down?url=https://imglf4.lf127.net/img/9d9f
 
 ---
 
-2025/06/05 版本更新：Capcom 更新了用于街霸 6 的纹理材质后缀，现在由 `143230113` 变为 `241101895`，文件本身内容未变，可以通过直接修改后缀更改。（Noesis 仅能读取 `143230113` 文件。）可以在提取文件后的根目录下打开命令行执行 `FOR /R %x IN (*.241101895) DO ren "%x" *.143230113` 批量修改所有子文件夹里的纹理。
+2025/06/05 版本更新：Capcom 更新了用于街霸 6 的纹理材质后缀，现在由 `143230113` 变为 `241101895`，文件本身内容未变，可以通过直接修改后缀更改。可以在提取文件后的根目录下打开命令行执行 `FOR /R %x IN (*.241101895) DO ren "%x" *.143230113` 批量修改所有子文件夹里的纹理。
 
 ## 一、准备工具
 
-### 1. RETool/MHRUnpack
+### 1. RETool/MHRUnpack/REE Pak Tool
 
 要获取游戏内的文件，我们首先需要对游戏进行解包。所谓包，就是游戏的 `.pak` 文件，和游戏的可执行程序在同一文件夹下，可以通过在 steam 中右键要解包的游戏，点击**属性-安装位置-浏览本机上的文件**来直接打开这些游戏文件所在的文件夹。而RETool 和 MHRUnpack 都是用于从 `.pak` 包中解包出文件的程序。它们的区别在于，RETool 是全量解包，而 MHRUnpack 可以选择想要导出的文件，进行非全量解包。
 
-个人更倾向于直接使用 MHRUnpack，虽说看名字就知道最初是为 MHR 制作的解包软件，不过它也适用于所有 RE Engine 开发的游戏。另外 MHRUnpack 由国人开发，内置中文使用指南。
+~~个人更倾向于直接使用 MHRUnpack，虽说看名字就知道最初是为 MHR 制作的解包软件，不过它也适用于所有 RE Engine 开发的游戏。另外 MHRUnpack 由国人开发，内置中文使用指南。~~
 
-无论使用哪种方法解包，都需要对应的 `.list` 文件（`.list` 文件的名字需要和解包程序内的名字匹配，并且目录下有且只能有一个）。
+目前推荐更新到 REE Pak Tool 进行非全量解包。REE Pak Tool 同样是由国人开发的有图形界面、可非全量解包的软件，且读取速度更快。MHRUnpack 已经逾半年未更新，对于某些文件的解密存在问题。同时，REE Pak Tool 对 list 的管理也更友好，可以同时存在多个不同名的 list 选择性使用，并且可以一次性加载多个 pak 同时打开文件树，不需要再自己一个一个拖进来了。
+
+无论使用哪种方法解包，都需要对应的 `.list` 文件（除 REE Pak Tool 外， `.list` 文件的名字还需要和解包程序内的名字匹配，并且目录下有且只能有一个）。
 
 **RETool 的使用方式**：将 `.list` 文件放置在同一目录下，然后将 `.pak` 文件拖拽到 `extract-pak.bat` 批处理程序上，等待解压即可。使用 RETool 的时候必须按 pak 的 patch 更新顺序依次解压。
 
 **MHRUnpack 的使用方式**：将 `.list` 文件更名为 `MHRisePC.list` ，放置在 `.exe` 可执行文件同一目录下，然后运行 MHRUnpack。等待 `.list ` 文件自动导入完成，之后就可以选择要导出的文件并且导出。关于需要导出哪些文件，可以跳到文末的速查表进行查看。
 
+**REE Pak Tool 的使用方式**：打开软件，左侧点击管理文件列表。作者已经提供了 MHWs 相关 list 的远程下载，其他游戏的 list 点击**打开本地目录**自行导入并刷新列表即可，没有名称要求。切换到不同游戏的 list 时也只用在下拉框里进行选择。
+
 [下载 RETool](https://fluffyquack.com/tools/REtool.zip)
 
 [下载 MHRUnpack](https://www.nexusmods.com/monsterhunterrise/mods/849)
+
+[下载 REE Pak Tool](https://github.com/eigeen/ree-pak-gui/releases)
 
 [所有 Capcom 游戏的 list 文件](https://github.com/Ekey/REE.PAK.Tool/tree/main/Projects)
 
