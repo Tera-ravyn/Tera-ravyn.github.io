@@ -28,6 +28,8 @@ cover: https://image.baidu.com/search/down?url=https://imglf4.lf127.net/img/9d9f
 
 无论使用哪种方法解包，都需要对应的 `.list` 文件（除 REE Pak Tool 外， `.list` 文件的名字还需要和解包程序内的名字匹配，并且目录下有且只能有一个）。
 
+**提示：** 街霸的游历模式和斗技战场是作为可卸载的 dlc 单独打包的，所以要找里面的资源（尤其是游历的语音之类的）需要到 `dlc` 路径下把 dlc 包也给加进去。
+
 **RETool 的使用方式**：将 `.list` 文件放置在同一目录下，然后将 `.pak` 文件拖拽到 `extract-pak.bat` 批处理程序上，等待解压即可。使用 RETool 的时候必须按 pak 的 patch 更新顺序依次解压。
 
 **MHRUnpack 的使用方式**：将 `.list` 文件更名为 `MHRisePC.list` ，放置在 `.exe` 可执行文件同一目录下，然后运行 MHRUnpack。等待 `.list ` 文件自动导入完成，之后就可以选择要导出的文件并且导出。关于需要导出哪些文件，可以跳到文末的速查表进行查看。
@@ -187,6 +189,20 @@ wcs601 = Masks
 wcs602 = There's a Super Hero jumpsuit lol  
   
 wpl100 (male) & wpl200 (female) = Avatar Head, skin textures, chain files, etc.
+
+路径： `natives/stm/product/model/atc`
+
+atc 042=桑吉的摔跤面具
+atc 043=蛛俐的头盔
+atc 057=巴什的箱子头套
+atc 064=樱花花瓣
+atc 084=嘉米的手机
+atc 097=爆炸腰带解除的钥匙
+atc 100=杰米给徒弟斟酒的酒杯
+
+mob 008=巴西树上的大蛇
+mob 010=卢修斯
+mob 302=皮套布兰卡
 
 ### 纹理材质
 

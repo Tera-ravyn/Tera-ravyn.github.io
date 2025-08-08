@@ -11,7 +11,19 @@ Fusion Tool
 vgmstream
 
 
+item_thumbnail：游历东西的预览图
 
+dailog：角色插图
+
+im：角色游历发消息的头像和贴图
+
+rank：段位图标
+
+stamp：贴图
+
+title：格斗点成就头像
+
+处理对话文本的工具：
 
 
 ess0101_00_m：欢呼声
@@ -35,6 +47,8 @@ wt_skill_120133 xx_m：使用技能的声效
 esfxxx_v_m_jpn/eng：格斗手的所有战斗语音
 
 npv_sp_talk 5010001_v_pv_sp_talk_m_jpn：丽芬电脑木人的对话
+
+npv 1130000：歌狼吧
 
 npv 991002_v_sp_talk_ver_01_0700_m_jpn：不知道是谁只有哇的一声，991002002的台词是一句 neo Shadoloo，991003004 的台词是一句エドさま，991005004 的台词是一句ベガさま，2002002 和 2004004 也分别是这两句，不过是女性 cv。
 
@@ -63,6 +77,12 @@ npv 0450230_v_cty_m_jpn：小小的语音（基本都是语气词、单词，没
 npv 5010001_v_pv_m_jpn：丽芬
 
 npv 5030001: hibikiyuriko，是小舞的伪装？
+
+npv 911002_v_cty 1_m：追人的小混混
+
+wnf 500：是狗吧？！是的吧……
+
+wnf 510：064 狗……
 
 wnf 600_v_pv_m_jpn.：疑似还是丽芬啊
 
