@@ -154,6 +154,7 @@ esf019 - E.D.
 esf020 - E. Honda
 esf021 - Jamie
 esf022 - Gouki (Akuma)
+esf023 - Sagat
 esf026 - Vega (Bison)
 esf027 - Terry
 esf028 - Mai
