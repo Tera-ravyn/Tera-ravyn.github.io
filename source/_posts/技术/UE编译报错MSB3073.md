@@ -52,9 +52,9 @@ cover:
 
 ##### 2. 指定 MSVC 版本（推荐）
 
-根据官网文档中 Build Configuration 一节所述，可以使用 ToolchainVersion 标签对 MSVC 版本进行指定。
+根据官网文档中 Build Configuration 一节所述，可以使用 `CompilerVersion` 标签对 MSVC 版本进行指定。
 
-> $ ToolchainVersion : The specific msvc toolchain version to use if the compiler is not msvc. This may be a specific version number (for example, "14.13.26128"), the string "Latest" to select the newest available version, or the string "Preview" to select the newest available preview version. By default, and if it is available, we use the toolchain version indicated by WindowsPlatform.DefaultToolChainVersion (otherwise, we use the latest version).
+> $ CompilerVersion : The specific compiler version to use. This may be a specific version number (for example, "14.13.26128"), the string "Latest" to select the newest available version, or the string "Preview" to select the newest available preview version. By default, and if it is available, we use the toolchain version indicated by WindowsPlatform.DefaultToolChainVersion (otherwise, we use the latest version).
 
 而 Unreal Build Tool (UBT) 可以从以下路径读取到 build configuration 文件：
 
@@ -80,3 +80,9 @@ cover:
 ```
 
 MSVC 的具体版本号可以在 `C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC` 路径下查看，每个版本的文件夹就是版本号。
+
+另外，在[UE5编译报错：Error MSB3073 - 知乎](https://zhuanlan.zhihu.com/p/562697309)一文中，作者建议安装的是 14.29~14.31 版本，但目前 14.30.0~14.33.99999 已经被 UE 禁用，建议安装 14.36 ，否则在生成解决方案的时候会遇到以下报错：
+
+> UnrealBuildTool has banned the MSVC 14.30.0-14.33.99999 toolchains due to compiler issues. Please install a different toolchain such as 14.36.32532 by opening the generated solution and installing recommended components or from the Visual Studio installer.
+
+以及，与该博文评论区作者的回复不同，通过修改 `BuildConfiguration.xml` 进行 MSVC 版本指定是需要重新生成解决方案的。
