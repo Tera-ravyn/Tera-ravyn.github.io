@@ -27,12 +27,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/游戏/街霸6Mod制作入门3-纹理与贴图.md",
+                "file": "_posts/绘画/百日绘纪.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "街霸6Mod制作入门3-纹理与贴图"
+              "title": "百日绘纪"
+            }
+          },
+          {
+            "id": "5545133b0156ef2e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_drafts/同人/鸦犬世界观整合.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "鸦犬世界观整合"
             }
           },
           {
@@ -50,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -169,13 +183,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/游戏/街霸6Mod制作入门3-纹理与贴图.md",
+                "file": "_drafts/同人/鸦犬世界观整合.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "街霸6Mod制作入门3-纹理与贴图 的大纲"
+              "title": "鸦犬世界观整合 的大纲"
             }
           }
         ],
@@ -197,11 +211,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8fc553cfd8a707f7",
+  "active": "5545133b0156ef2e",
   "lastOpenFiles": [
-    "_posts/绘画/百日绘纪.md",
-    "_drafts/技术/关于本站是如何搭建的-obsidian+hexo+git无痛自动工作流.md",
+    "_drafts/同人/中西部恶魔.md",
+    "_drafts/同人/主巴什基本设定.md",
+    "_drafts/同人/主巴什短打.md",
+    "_drafts/同人/急诊心动过速.md",
+    "_drafts/同人/鸦犬世界观整合.md",
     "_drafts/乐评/短歌 - 短歌.md",
+    "_posts/绘画/百日绘纪.md",
+    "_posts/游戏/街霸6Mod制作入门1-解包与导出Mod.md",
+    "_drafts/技术/关于本站是如何搭建的-obsidian+hexo+git无痛自动工作流.md",
+    "_posts/游戏/街霸6Mod制作入门3-纹理与贴图.md",
     "_posts/技术/UE编译报错MSB3073.md",
     "v8 1.dll",
     "zlib 1.dll",
@@ -212,13 +233,10 @@
     "v8_libplatform.dll",
     "v8_libbase.dll",
     "_drafts/技术/Mate Engine模组制作.md",
-    "_posts/游戏/街霸6Mod制作入门1-解包与导出Mod.md",
-    "_drafts/同人/主巴什基本设定.md",
     "_posts/绘画",
     "_drafts/技术/关于本站是如何搭建的-obsidian+hexo+git无痛自动工作流/IMG-20250916181400616.png",
     "_drafts/技术/关于本站是如何搭建的-obsidian+hexo+git无痛自动工作流",
     "_drafts/技术/关于本站是如何搭建的-obsidian+hexo+git无痛自动工作流/IMG-20250916181041717.png",
-    "_drafts/同人/中西部恶魔.md",
     "about/index.md",
     "categories/index.md",
     "_posts/技术/UE解决有模块需要重新编译问题.md",
@@ -229,18 +247,14 @@
     "_drafts/hello-world.md",
     "_drafts/游戏/街霸6Mod制作入门番外-原模型的拆分与补充.md",
     "_drafts/技术/语音克隆入门.md",
-    "_posts/游戏/街霸6Mod制作入门3-纹理与贴图.md",
     "_posts/游戏/街霸6Mod制作入门2-部件替换.md",
     "_drafts/游戏/街霸6Mod制作入门4-Mod的调试.md",
-    "_drafts/同人/鸦犬世界观整合.md",
     "_drafts/技术/手搓左右横跳的TabBar Indicator.md",
     "_drafts/技术/手搓根据滚动条自动展开的顶部Info Card.md",
     "Pasted image 20250711091200.png",
-    "_drafts/同人/急诊心动过速.md",
     "_drafts/技术/Mate Engine模组制作/IMG-20250702104314768.png",
     "_drafts/技术/Mate Engine模组制作/IMG-20250702103628453.png",
     "_drafts/技术/Mate Engine模组制作/IMG-20250702103409246.png",
-    "_posts/乐评/Slipknot - Slipknot.md",
     "_drafts/技术/不会建模也可以当缝合怪自己爽爽/IMG-20250630145245501.png",
     "Pasted image 20250621231734.png",
     "Pasted image 20250621232503.png",
