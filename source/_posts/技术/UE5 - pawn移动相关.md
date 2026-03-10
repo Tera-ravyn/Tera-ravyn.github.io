@@ -174,6 +174,17 @@ Look 的输入值添加到控制器的 Yaw 和 Pitch 轴中即可，如果没有
 
 ---
 
+2026/03/10 更新：
+
+关于 mouse XY 2D Axis 的输入类型的特殊 feature：
+
+当鼠标显示时，无论有没有设置 trigger，该输入必定需要其他鼠标操作触发（例如按住左键）。
+
+当鼠标隐藏时，该事件则能一直被触发，一直获取鼠标的位置。
+
+[Enhanced Input System Mouse XY 2D Axis only registering input while holding down a Mouse Key - Programming & Scripting / Blueprint - Epic Developer Community Forums](https://forums.unrealengine.com/t/enhanced-input-system-mouse-xy-2d-axis-only-registering-input-while-holding-down-a-mouse-key/1311170/10)
+
+---
 ## references
 
 [Unreal Engine: Enhanced Input Actions (Keyboard + Controller) - GameDev EXP](https://gamedevexp.com/unreal-engine-enhanced-input/#:~:text=To%20get%20this%20working%2C%20you%20will%20always%20need,the%20Mapping%20Context%20you%20created%20in%20Step%203.)

@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_drafts/技术/Mate Engine模组制作.md",
+                "file": "_posts/技术/UE5 - pawn移动相关.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Mate Engine模组制作"
+              "title": "UE5 - pawn移动相关"
             }
           },
           {
@@ -211,13 +211,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_drafts/技术/Mate Engine模组制作.md",
+                "file": "_posts/技术/UE5 - pawn移动相关.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Mate Engine模组制作 的大纲"
+              "title": "UE5 - pawn移动相关 的大纲"
             }
           }
         ],
@@ -241,6 +241,7 @@
   },
   "active": "bfe58a3c3f989340",
   "lastOpenFiles": [
+    "_drafts/技术/Mate Engine模组制作.md",
     "_posts/游戏/街霸6Mod制作入门1-解包与导出Mod.md",
     "_posts/游戏/街霸6Mod制作入门3-纹理与贴图.md",
     "_drafts/游戏/街霸6Mod制作入门5-音频相关.md",
@@ -271,7 +272,6 @@
     "zlib.dll",
     "v8_libplatform.dll",
     "v8_libbase.dll",
-    "_drafts/技术/Mate Engine模组制作.md",
     "_posts/绘画",
     "_drafts/技术/关于本站是如何搭建的-obsidian+hexo+git无痛自动工作流/IMG-20250916181400616.png",
     "_drafts/技术/关于本站是如何搭建的-obsidian+hexo+git无痛自动工作流/IMG-20250916181041717.png",
